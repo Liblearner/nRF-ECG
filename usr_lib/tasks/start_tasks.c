@@ -10,17 +10,17 @@
 #define START_STK_SIZE configMINIMAL_STACK_SIZE
 TaskHandle_t StartTask_Handler = NULL;
 
-#define task_led_toogle_PRIO 30
-#define task_led_toogle_SIZE configMINIMAL_STACK_SIZE + 200
+#define task_led_toogle_SIZE configMINIMAL_STACK_SIZE
+#define task_led_toogle_PRIO 1
 TaskHandle_t led_toggle_task_handle;
 
-#define task_PanTompkins_SIZE 30
-#define task_PanTompkins_PRIO 512
+#define task_PanTompkins_SIZE 256
+#define task_PanTompkins_PRIO 20
 TaskHandle_t task_PanTompkins_handle;
 
 TimerHandle_t led_toggle_timer_handle;  /**< Reference to LED1 toggling FreeRTOS timer. */
 
-#define TIMER_PERIOD      1000          /**< Timer period. LED1 timer will expire after 1000 ms */
+#define TIMER_PERIOD      5          /**< Timer period. LED1 timer will expire after x ms */
 
 
 //引导任务
@@ -31,30 +31,30 @@ static void start_task(void *pvParameters)
     taskENTER_CRITICAL();//临界段保护
 
 	    /* Create task for LED0 blinking with priority set to 2 */
-    UNUSED_VARIABLE(xTaskCreate(
-										(TaskFunction_t)led_toggle_task_function, 
-										"LED0", 
-										task_led_toogle_SIZE, 
-										NULL, 
-										task_led_toogle_PRIO, 
-										&led_toggle_task_handle));
+//    UNUSED_VARIABLE(xTaskCreate(
+//										(TaskFunction_t)led_toggle_task_function, 
+//										"LED0", 
+//										task_led_toogle_SIZE, 
+//										NULL, 
+//										task_led_toogle_PRIO, 
+//										&led_toggle_task_handle));
 
     /* Start timer for LED1 blinking */
-    led_toggle_timer_handle = xTimerCreate( "LED1", 
-										TIMER_PERIOD, 
-										pdTRUE, 
-										NULL, 
-										(TimerCallbackFunction_t)led_toggle_timer_callback);
-    
-	  UNUSED_VARIABLE(xTimerStart(led_toggle_timer_handle, 0));
+//    led_toggle_timer_handle = xTimerCreate( "LED1", 
+//										TIMER_PERIOD, 
+//										pdTRUE, 
+//										NULL, 
+//										(TimerCallbackFunction_t)led_toggle_timer_callback);
+//    
+//	  UNUSED_VARIABLE(xTimerStart(led_toggle_timer_handle, 0));
 	
-		UNUSED_VARIABLE(xTaskCreate(
-										(TaskFunction_t)PanTompkins_task,
-										"PanTompkins",
-										task_PanTompkins_SIZE,
-										NULL,
-										task_PanTompkins_PRIO,
-										&task_PanTompkins_handle));
+//		xTaskCreate(
+//										(TaskFunction_t)PanTompkins_task,
+//										"PanTompkins",
+//										task_PanTompkins_SIZE,
+//										NULL,
+//										task_PanTompkins_PRIO,
+//										&task_PanTompkins_handle);
 	                
     vTaskDelete(StartTask_Handler); //删除开始任务
     taskEXIT_CRITICAL();            //退出临界段

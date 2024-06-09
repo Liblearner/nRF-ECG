@@ -9,6 +9,9 @@
 #include "nrf_delay.h"
 
 #include "main.h"
+
+#include "filter.h"
+
 /*
 AD8233：
 ECG_ADC 			P0.02：ECG模拟信号输入
@@ -23,10 +26,10 @@ ECG_ADC 			P0.02：ECG模拟信号输入
 #define AD8233_SW_EN        NRF_GPIO_PIN_MAP(1,15)
 #define AD8233_LOD          NRF_GPIO_PIN_MAP(1,14)
 
-#define SAMPLES_IN_BUFFER 5
+#define SAMPLES_IN_BUFFER 3
 
 ////采样buffer
-extern nrf_saadc_value_t     m_buffer_pool[2][SAMPLES_IN_BUFFER];
+extern nrf_saadc_value_t     m_buffer_pool[1][SAMPLES_IN_BUFFER];
 
 
 void ad8233_init(void);

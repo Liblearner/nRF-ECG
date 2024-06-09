@@ -43,6 +43,28 @@
 #error "Board is not equipped with enough amount of LEDs"
 #endif
 
+//adc读取buffer
+int16_t adc_value;
+float adc_MVA;
+float adc_LPF;
+
+//移动平均结构体
+t_MAF MVA_data;
+
+
+//acc读取buffer
+short acc[3] = {0,0,0};
+float zAngle = 0;
+
+//SC7A20初始化读取状态yu buffer
+uint8_t init_state = 0;
+uint8_t read_buffer[16] = 
+{0,0,0,0
+,0,0,0,0
+,0,0,0,0
+,0,0,0,0};
+
+
 static void hardware_init(void);
 
 int main(void)
@@ -52,32 +74,44 @@ int main(void)
 	
 	  /*PT结构体初始化*/
 		PT_init();
-	
-	  /* Activate deep sleep mode */
-    SCB->SCR |= SCB_SCR_SLEEPDEEP_Msk;
-	
-    /* Start FreeRTOS */
-		start_the_very_first_task();
-    vTaskStartScheduler();
+		moving_average_filter_init(&MVA_data);
 
     while (true)
     {
-
+     //SC7A20_GetZAxisAngle(acc,&zAngle);
+			//nrf_delay_ms(20);
+//			for(int8_t ii=0; ii<0x02;ii=ii+1)
+//			{
+//				for (int8_t jj=0;jj<0x02;jj=jj+1)
+//				{
+//					for (int8_t kk=0;kk<0x02;kk=kk+1)
+//					{
+//						nrf_gpio_pin_write(NRF_GPIO_PIN_MAP(0,29),ii);
+//						nrf_gpio_pin_write(AD8233_FR, jj);
+//						nrf_gpio_pin_write(AD8233_SW_EN, kk);
+//						nrf_delay_ms(5000);
+//					}}}
+			
+			
     }
 }
 
+	
 static void hardware_init(void)
 {
     ret_code_t err_code;
 	
     /* Initialize clock driver for better time accuracy in FREERTOS */
-    err_code = nrf_drv_clock_init();
-    APP_ERROR_CHECK(err_code);
+//    err_code = nrf_drv_clock_init();
+//    APP_ERROR_CHECK(err_code);
 
     /* Configure LED-pins as outputs */
-    bsp_board_init(BSP_INIT_LEDS);
-		
+//    bsp_board_init(BSP_INIT_LEDS);
+
+    /*sc7a20初始化*/
+    //SC7A20_Init();
+	
 		/*ad8233初始化*/
 		ad8233_init();
-
+	
 }

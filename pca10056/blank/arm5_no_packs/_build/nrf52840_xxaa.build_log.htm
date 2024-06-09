@@ -3,35 +3,39 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Tool Versions:</h2>
-IDE-Version: ¦ÌVision V5.29.0.0
-Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
-License Information: 1 DELL, 2, LIC=HN0AE-5GHHT-KPIZY-I7IKW-KTD5U-5Z34J
+IDE-Version: ¦ÌVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: askcvjba Lenovo, asdckn, LIC=EXJT4-FMPR4-KP8ZY-IVXE8-2KWDJ-ABB6Y
  
 Tool Versions:
-Toolchain:       MDK-ARM Plus  Version: 5.29.0.0
-Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
-C Compiler:      Armcc.exe V5.06 update 6 (build 750)
-Assembler:       Armasm.exe V5.06 update 6 (build 750)
-Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
-Library Manager: ArmAr.exe V5.06 update 6 (build 750)
-Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
-CPU DLL:         SARMCM3.DLL V5.29.0.0
-Dialog DLL:      DCM.DLL V1.17.3.0
+Toolchain:       MDK-ARM Plus  Version: 5.38.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
 Target DLL:      Segger\JL2CM3.dll V2.99.18.0
-Dialog DLL:      TCM.DLL V1.36.5.0
+Dialog DLL:      TCM.DLL V1.56.4.0
  
 <h2>Project:</h2>
-C:\nRF5_SDK_17.1.0_ddde560\examples\peripheral\0adc_rtos\pca10056\blank\arm5_no_packs\blinky_FreeRTOS_pca10056.uvprojx
-Project File Date:  04/10/2024
+E:\nRFDeviceDownload\nRF5_SDK_17.1.0_ddde560\examples\peripheral\0adc_rtos\pca10056\blank\arm5_no_packs\blinky_FreeRTOS_pca10056.uvprojx
+Project File Date:  06/09/2024
 
 <h2>Output:</h2>
-*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin'
 Build target 'nrf52840_xxaa'
-compiling start_tasks.c...
+compiling main.c...
+..\..\..\main.c(102): warning:  #177-D: variable "err_code"  was declared but never referenced
+      ret_code_t err_code;
+..\..\..\main.c: 1 warning, 0 errors
+compiling ad8233.c...
 linking...
-Program Size: Code=11344 RO-data=600 RW-data=200 ZI-data=12952  
+Program Size: Code=7920 RO-data=612 RW-data=196 ZI-data=9484  
 FromELF: creating hex file...
-".\_build\nrf52840_xxaa.axf" - 0 Error(s), 0 Warning(s).
+".\_build\nrf52840_xxaa.axf" - 0 Error(s), 1 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -48,20 +52,20 @@ Package Vendor: NordicSemiconductor
    * Component: Startup Version: 8.40.3
 
 <h2>Collection of Component include folders:</h2>
-  .\RTE\_nrf52840_xxaa
-  D:\Keil\ARM\CMSIS\5.6.0\CMSIS\Core\Include
-  D:\Keil\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include
+  ./RTE/_nrf52840_xxaa
+  C:/Users/Lenovo/AppData/Local/Arm/Packs/ARM/CMSIS/5.6.0/CMSIS/Core/Include
+  C:/Users/Lenovo/AppData/Local/Arm/Packs/NordicSemiconductor/nRF_DeviceFamilyPack/8.40.3/Device/Include
 
 <h2>Collection of Component Files used:</h2>
 
    * Component: ARM::CMSIS:CORE:5.3.0
 
    * Component: NordicSemiconductor::Device:Startup:8.40.3
-      Include file:  Device\Include\system_nrf52840.h
-      Source file:   Device\Source\system_nrf52.c
-      Source file:   Device\Source\arm\arm_startup_nrf52840.s
-      Include file:  Device\Include\system_nrf.h
-Build Time Elapsed:  00:00:02
+      Source file:   Device/Source/arm/arm_startup_nrf52840.s
+      Source file:   Device/Source/system_nrf52.c
+      Include file:  Device/Include/system_nrf52840.h
+      Include file:  Device/Include/system_nrf.h
+Build Time Elapsed:  00:00:01
 </pre>
 </body>
 </html>

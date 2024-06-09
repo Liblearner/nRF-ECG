@@ -1,11 +1,13 @@
 #include "ad8233.h"
 
 static const nrf_drv_timer_t m_timer = NRF_DRV_TIMER_INSTANCE(0);
-nrf_saadc_value_t     m_buffer_pool[2][SAMPLES_IN_BUFFER];//加static之后会找不到
+int16_t     m_buffer_pool[1][SAMPLES_IN_BUFFER];//加static之后会找不到
 static nrf_ppi_channel_t     m_ppi_channel;
-static uint32_t              m_adc_evt_counter;
+
 
 /*还需要加上脱落检测之后系统自动休眠的功能*/
+
+
 
 void timer_handler(nrf_timer_event_t event_type, void * p_context)
 {
@@ -27,7 +29,7 @@ void saadc_sampling_event_init(void)
 	/*这里可以修改定时器的计数时间，单位ms*/
 	
     /* setup m_timer for compare event every x ms */
-    uint32_t ticks = nrf_drv_timer_ms_to_ticks(&m_timer, 5);
+    uint32_t ticks = nrf_drv_timer_ms_to_ticks(&m_timer, 1);
     nrf_drv_timer_extended_compare(&m_timer,
                                    NRF_TIMER_CC_CHANNEL0,
                                    ticks,
@@ -66,15 +68,11 @@ void saadc_callback(nrf_drv_saadc_evt_t const * p_event)
 
         err_code = nrf_drv_saadc_buffer_convert(p_event->data.done.p_buffer, SAMPLES_IN_BUFFER);
         APP_ERROR_CHECK(err_code);
+				adc_value = m_buffer_pool[0][0];
+				adc_MVA = moving_average_filter(&MVA_data,adc_value);
+				adc_LPF = low_pass_filter(adc_value);
+			  PT_StateMachine(adc_value);
 
-//        int i;
-        //NRF_LOG_INFO("ADC event number: %d", (int)m_adc_evt_counter);
-
-//        for (i = 0; i < SAMPLES_IN_BUFFER; i++)
-//        {
-//            NRF_LOG_INFO("%d", p_event->data.done.p_buffer[i]);
-//        }
-        m_adc_evt_counter++;
     }
 }
 
@@ -94,8 +92,8 @@ void saadc_init(void)
     err_code = nrf_drv_saadc_buffer_convert(m_buffer_pool[0], SAMPLES_IN_BUFFER);
     APP_ERROR_CHECK(err_code);
 
-    err_code = nrf_drv_saadc_buffer_convert(m_buffer_pool[1], SAMPLES_IN_BUFFER);
-    APP_ERROR_CHECK(err_code);
+//    err_code = nrf_drv_saadc_buffer_convert(m_buffer_pool[1], SAMPLES_IN_BUFFER);
+//    APP_ERROR_CHECK(err_code);
 
 }
 
@@ -104,16 +102,20 @@ void ad8233_init(void)
 {
 	  nrf_gpio_cfg_output(AD8233_FR);
 	  nrf_gpio_cfg_output(AD8233_SW_EN);
-	
+	  nrf_gpio_cfg_output(NRF_GPIO_PIN_MAP(0,29));
+	 	nrf_delay_ms(100);		
+	  nrf_gpio_pin_write(NRF_GPIO_PIN_MAP(0,29),1);
 		nrf_gpio_pin_write(AD8233_FR, 1);
 		nrf_gpio_pin_write(AD8233_SW_EN, 1);
-		
-	  /*电极有信号时LOD输出为0，脱落后输出为1，因此LOD设置为下拉*/
-	  nrf_gpio_cfg_input(AD8233_LOD,NRF_GPIO_PIN_PULLDOWN);
+
+		low_pass_filter_init();
 	
 		//ADC与ADC读取事件初始化
 		saadc_init();
     saadc_sampling_event_init();
     saadc_sampling_event_enable();
+
+	
+	
 }
 

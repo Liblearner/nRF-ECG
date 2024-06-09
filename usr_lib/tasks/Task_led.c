@@ -9,10 +9,11 @@ void led_toggle_task_function (void)
 {
     while (true)
     {
-        bsp_board_led_invert(BSP_BOARD_LED_0);
-
+        //bsp_board_led_invert(BSP_BOARD_LED_0);
+	  adc_value = m_buffer_pool[0][0];
+		PT_StateMachine(adc_value);
         /* Delay a task for a given number of ticks */
-        vTaskDelay(500);
+        vTaskDelay(5);
 
         /* Tasks must be implemented to never return... */
     }
@@ -24,6 +25,7 @@ void led_toggle_task_function (void)
  */
 void led_toggle_timer_callback (void)
 {
-    bsp_board_led_invert(BSP_BOARD_LED_1);
+    //bsp_board_led_invert(BSP_BOARD_LED_1);
+
 }
 
