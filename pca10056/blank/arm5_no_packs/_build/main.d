@@ -70,6 +70,7 @@
 .\_build\main.o: C:\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdlib.h
 .\_build\main.o: ..\..\..\usr_lib\PanTompkins\PanTompkins.h
 .\_build\main.o: ..\..\..\usr_lib\filter.h
+.\_build\main.o: ..\..\..\usr_lib\wavelib\header\wavelib.h
 .\_build\main.o: ..\..\..\usr_lib\hardware\ad8233.h
 .\_build\main.o: ..\..\..\main.h
 .\_build\main.o: ..\..\..\usr_lib\hardware\sc7a20.h

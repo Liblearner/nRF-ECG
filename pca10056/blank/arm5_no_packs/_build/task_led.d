@@ -70,6 +70,7 @@
 .\_build\task_led.o: C:\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdlib.h
 .\_build\task_led.o: ..\..\..\usr_lib\PanTompkins\PanTompkins.h
 .\_build\task_led.o: ..\..\..\usr_lib\filter.h
+.\_build\task_led.o: ..\..\..\usr_lib\wavelib\header\wavelib.h
 .\_build\task_led.o: ..\..\..\usr_lib\hardware\ad8233.h
 .\_build\task_led.o: ..\..\..\main.h
 .\_build\task_led.o: ..\..\..\usr_lib\hardware\sc7a20.h

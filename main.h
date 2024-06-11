@@ -28,6 +28,7 @@
 //algorithm
 #include "PanTompkins.h"
 #include "filter.h"
+#include "wavelib.h"
 
 //hardware
 #include "ad8233.h"

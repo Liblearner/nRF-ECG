@@ -337,10 +337,10 @@
             <v6WtE>0</v6WtE>
             <v6Rtti>0</v6Rtti>
             <VariousControls>
-              <MiscControls>--reduce_paths</MiscControls>
+              <MiscControls>--gnu</MiscControls>
               <Define>BOARD_PCA10056 CONFIG_GPIO_AS_PINRESET FLOAT_ABI_HARD FREERTOS NRF52840_XXAA __HEAP_SIZE=8192 __STACK_SIZE=8192</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\..\config;..\..\..\..\..\..\components;..\..\..\..\..\..\components\boards;..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd;..\..\..\..\..\..\components\libraries\atomic;..\..\..\..\..\..\components\libraries\balloc;..\..\..\..\..\..\components\libraries\bsp;..\..\..\..\..\..\components\libraries\button;..\..\..\..\..\..\components\libraries\experimental_section_vars;..\..\..\..\..\..\components\libraries\log;..\..\..\..\..\..\components\libraries\log\src;..\..\..\..\..\..\components\libraries\memobj;..\..\..\..\..\..\components\libraries\ringbuf;..\..\..\..\..\..\components\libraries\strerror;..\..\..\..\..\..\components\libraries\timer;..\..\..\..\..\..\components\libraries\util;..\..\..;..\..\..\..\..\..\external\fprintf;..\..\..\..\..\..\external\freertos\config;..\..\..\..\..\..\external\freertos\portable\ARM\nrf52;..\..\..\..\..\..\external\freertos\portable\CMSIS\nrf52;..\..\..\..\..\..\external\freertos\source\include;..\..\..\..\..\..\integration\nrfx;..\..\..\..\..\..\integration\nrfx\legacy;..\..\..\..\..\..\modules\nrfx;..\..\..\..\..\..\modules\nrfx\drivers\include;..\..\..\..\..\..\modules\nrfx\hal;..\config;..\..\..\..\..\..\components\libraries\delay;..\..\..\usr_lib\PanTompkins;..\..\..\usr_lib\hardware;..\..\..\..\0adc_rtos;..\..\..\usr_lib\tasks;..\..\..\..\..\..\components\libraries\cli;..\..\..\..\..\..\components\libraries\mpu;..\..\..\usr_lib</IncludePath>
+              <IncludePath>..\..\..\config;..\..\..\..\..\..\components;..\..\..\..\..\..\components\boards;..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd;..\..\..\..\..\..\components\libraries\atomic;..\..\..\..\..\..\components\libraries\balloc;..\..\..\..\..\..\components\libraries\bsp;..\..\..\..\..\..\components\libraries\button;..\..\..\..\..\..\components\libraries\experimental_section_vars;..\..\..\..\..\..\components\libraries\log;..\..\..\..\..\..\components\libraries\log\src;..\..\..\..\..\..\components\libraries\memobj;..\..\..\..\..\..\components\libraries\ringbuf;..\..\..\..\..\..\components\libraries\strerror;..\..\..\..\..\..\components\libraries\timer;..\..\..\..\..\..\components\libraries\util;..\..\..;..\..\..\..\..\..\external\fprintf;..\..\..\..\..\..\external\freertos\config;..\..\..\..\..\..\external\freertos\portable\ARM\nrf52;..\..\..\..\..\..\external\freertos\portable\CMSIS\nrf52;..\..\..\..\..\..\external\freertos\source\include;..\..\..\..\..\..\integration\nrfx;..\..\..\..\..\..\integration\nrfx\legacy;..\..\..\..\..\..\modules\nrfx;..\..\..\..\..\..\modules\nrfx\drivers\include;..\..\..\..\..\..\modules\nrfx\hal;..\config;..\..\..\..\..\..\components\libraries\delay;..\..\..\usr_lib\PanTompkins;..\..\..\usr_lib\hardware;..\..\..\..\0adc_rtos;..\..\..\usr_lib\tasks;..\..\..\..\..\..\components\libraries\cli;..\..\..\..\..\..\components\libraries\mpu;..\..\..\usr_lib;..\..\..\usr_lib\wavelib\header;..\..\..\usr_lib\wavelib\src</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -673,6 +673,51 @@
               <FileName>filter.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\..\usr_lib\filter.c</FilePath>
+            </File>
+            <File>
+              <FileName>wavelib.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\usr_lib\wavelib\src\wavelib.c</FilePath>
+            </File>
+            <File>
+              <FileName>cwt.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\usr_lib\wavelib\src\cwt.c</FilePath>
+            </File>
+            <File>
+              <FileName>wtmath.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\usr_lib\wavelib\src\wtmath.c</FilePath>
+            </File>
+            <File>
+              <FileName>conv.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\usr_lib\wavelib\src\conv.c</FilePath>
+            </File>
+            <File>
+              <FileName>cwtmath.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\usr_lib\wavelib\src\cwtmath.c</FilePath>
+            </File>
+            <File>
+              <FileName>hsfft.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\usr_lib\wavelib\src\hsfft.c</FilePath>
+            </File>
+            <File>
+              <FileName>real.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\usr_lib\wavelib\src\real.c</FilePath>
+            </File>
+            <File>
+              <FileName>wavefilt.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\usr_lib\wavelib\src\wavefilt.c</FilePath>
+            </File>
+            <File>
+              <FileName>wavefunc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\usr_lib\wavelib\src\wavefunc.c</FilePath>
             </File>
           </Files>
         </Group>

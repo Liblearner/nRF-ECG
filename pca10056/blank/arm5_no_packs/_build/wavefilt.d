@@ -1,0 +1,10 @@
+.\_build\wavefilt.o: ..\..\..\usr_lib\wavelib\src\wavefilt.c
+.\_build\wavefilt.o: ..\..\..\usr_lib\wavelib\src\wavefilt.h
+.\_build\wavefilt.o: C:\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdio.h
+.\_build\wavefilt.o: ..\..\..\usr_lib\wavelib\src\conv.h
+.\_build\wavefilt.o: ..\..\..\usr_lib\wavelib\src\real.h
+.\_build\wavefilt.o: ..\..\..\usr_lib\wavelib\src\hsfft.h
+.\_build\wavefilt.o: C:\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdlib.h
+.\_build\wavefilt.o: C:\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\math.h
+.\_build\wavefilt.o: C:\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\string.h
+.\_build\wavefilt.o: ..\..\..\usr_lib\wavelib\src\../header/wavelib.h

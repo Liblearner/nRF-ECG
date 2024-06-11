@@ -64,13 +64,16 @@ uint8_t read_buffer[16] =
 ,0,0,0,0
 ,0,0,0,0};
 
-
 static void hardware_init(void);
 
 int main(void)
 {
 		/*nRF与外设初始化*/
 		hardware_init();
+	
+
+
+	
 	
 	  /*PT结构体初始化*/
 		PT_init();

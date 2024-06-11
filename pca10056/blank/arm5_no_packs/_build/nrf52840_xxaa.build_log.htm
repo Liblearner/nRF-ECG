@@ -22,20 +22,21 @@ Dialog DLL:      TCM.DLL V1.56.4.0
  
 <h2>Project:</h2>
 E:\nRFDeviceDownload\nRF5_SDK_17.1.0_ddde560\examples\peripheral\0adc_rtos\pca10056\blank\arm5_no_packs\blinky_FreeRTOS_pca10056.uvprojx
-Project File Date:  06/09/2024
+Project File Date:  06/11/2024
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin'
 Build target 'nrf52840_xxaa'
-compiling main.c...
-..\..\..\main.c(102): warning:  #177-D: variable "err_code"  was declared but never referenced
-      ret_code_t err_code;
-..\..\..\main.c: 1 warning, 0 errors
 compiling ad8233.c...
+..\..\..\..\..\..\components\libraries\util\app_util.h(225): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_SIMPLE"  (declared at line 219)
+  #define STATIC_ASSERT_SIMPLE(EXPR)      extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\..\..\..\..\components\libraries\util\app_util.h(226): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_MSG"  (declared at line 220)
+  #define STATIC_ASSERT_MSG(EXPR, MSG)    extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\..\usr_lib\hardware\ad8233.c: 2 warnings, 0 errors
 linking...
-Program Size: Code=7920 RO-data=612 RW-data=196 ZI-data=9484  
+Program Size: Code=23292 RO-data=26380 RW-data=248 ZI-data=17680  
 FromELF: creating hex file...
-".\_build\nrf52840_xxaa.axf" - 0 Error(s), 1 Warning(s).
+".\_build\nrf52840_xxaa.axf" - 0 Error(s), 2 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -63,8 +64,8 @@ Package Vendor: NordicSemiconductor
    * Component: NordicSemiconductor::Device:Startup:8.40.3
       Source file:   Device/Source/arm/arm_startup_nrf52840.s
       Source file:   Device/Source/system_nrf52.c
-      Include file:  Device/Include/system_nrf52840.h
       Include file:  Device/Include/system_nrf.h
+      Include file:  Device/Include/system_nrf52840.h
 Build Time Elapsed:  00:00:01
 </pre>
 </body>

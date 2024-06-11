@@ -71,6 +71,7 @@
 .\_build\sc7a20.o: C:\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdlib.h
 .\_build\sc7a20.o: ..\..\..\usr_lib\PanTompkins\PanTompkins.h
 .\_build\sc7a20.o: ..\..\..\usr_lib\filter.h
+.\_build\sc7a20.o: ..\..\..\usr_lib\wavelib\header\wavelib.h
 .\_build\sc7a20.o: ..\..\..\usr_lib\hardware\ad8233.h
 .\_build\sc7a20.o: ..\..\..\main.h
 .\_build\sc7a20.o: ..\..\..\usr_lib\hardware\sc7a20.h
