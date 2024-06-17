@@ -1,100 +1,19 @@
 Dependencies for Project 'blinky_FreeRTOS_pca10056', Target 'nrf52840_xxaa': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARM_Compiler_5.06u7
-F (..\..\..\main.c)(0x66680638)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\..\components -I ..\..\..\..\..\..\components\boards -I ..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I ..\..\..\..\..\..\components\libraries\atomic -I ..\..\..\..\..\..\components\libraries\balloc -I ..\..\..\..\..\..\components\libraries\bsp -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\libraries\experimental_section_vars -I ..\..\..\..\..\..\components\libraries\log -I ..\..\..\..\..\..\components\libraries\log\src -I ..\..\..\..\..\..\components\libraries\memobj -I ..\..\..\..\..\..\components\libraries\ringbuf -I ..\..\..\..\..\..\components\libraries\strerror -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\util -I ..\..\.. -I ..\..\..\..\..\..\external\fprintf -I ..\..\..\..\..\..\external\freertos\config -I ..\..\..\..\..\..\external\freertos\portable\ARM\nrf52 -I ..\..\..\..\..\..\external\freertos\portable\CMSIS\nrf52 -I ..\..\..\..\..\..\external\freertos\source\include -I ..\..\..\..\..\..\integration\nrfx -I ..\..\..\..\..\..\integration\nrfx\legacy -I ..\..\..\..\..\..\modules\nrfx -I ..\..\..\..\..\..\modules\nrfx\drivers\include -I ..\..\..\..\..\..\modules\nrfx\hal -I ..\config -I ..\..\..\..\..\..\components\libraries\delay -I ..\..\..\usr_lib\PanTompkins -I ..\..\..\usr_lib\hardware -I ..\..\..\..\0adc_rtos -I ..\..\..\usr_lib\tasks -I ..\..\..\..\..\..\components\libraries\cli -I ..\..\..\..\..\..\components\libraries\mpu -I ..\..\..\usr_lib -I ..\..\..\usr_lib\wavelib\header -I ..\..\..\usr_lib\wavelib\src --gnu-I.\RTE\_nrf52840_xxaa-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52840_XXAA -D_RTE_ -DBOARD_PCA10056 -DCONFIG_GPIO_AS_PINRESET -DFLOAT_ABI_HARD -DFREERTOS -DNRF52840_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o .\_build\main.o --omf_browse .\_build\main.crf --depend .\_build\main.d)
-I (..\..\..\main.h)(0x6667F490)
+F (..\..\..\main.c)(0x666906BC)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\..\components -I ..\..\..\..\..\..\components\boards -I ..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I ..\..\..\..\..\..\components\libraries\atomic -I ..\..\..\..\..\..\components\libraries\balloc -I ..\..\..\..\..\..\components\libraries\bsp -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\libraries\experimental_section_vars -I ..\..\..\..\..\..\components\libraries\log -I ..\..\..\..\..\..\components\libraries\log\src -I ..\..\..\..\..\..\components\libraries\memobj -I ..\..\..\..\..\..\components\libraries\ringbuf -I ..\..\..\..\..\..\components\libraries\strerror -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\util -I ..\..\.. -I ..\..\..\..\..\..\external\fprintf -I ..\..\..\..\..\..\external\freertos\config -I ..\..\..\..\..\..\external\freertos\portable\ARM\nrf52 -I ..\..\..\..\..\..\external\freertos\portable\CMSIS\nrf52 -I ..\..\..\..\..\..\external\freertos\source\include -I ..\..\..\..\..\..\integration\nrfx -I ..\..\..\..\..\..\integration\nrfx\legacy -I ..\..\..\..\..\..\modules\nrfx -I ..\..\..\..\..\..\modules\nrfx\drivers\include -I ..\..\..\..\..\..\modules\nrfx\hal -I ..\config -I ..\..\..\..\..\..\components\libraries\delay -I ..\..\..\usr_lib\PanTompkins -I ..\..\..\usr_lib\hardware -I ..\..\..\..\0adc_rtos -I ..\..\..\usr_lib\tasks -I ..\..\..\..\..\..\components\libraries\cli -I ..\..\..\..\..\..\components\libraries\mpu -I ..\..\..\usr_lib -I ..\..\..\usr_lib\wavelib\header -I ..\..\..\usr_lib\wavelib\src --gnu-I.\RTE\_nrf52840_xxaa-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52840_XXAA -D_RTE_ -DBOARD_PCA10056 -DCONFIG_GPIO_AS_PINRESET -DFLOAT_ABI_HARD -DFREERTOS -DNRF52840_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o .\_build\main.o --omf_browse .\_build\main.crf --depend .\_build\main.d)
+I (..\..\..\main.h)(0x66690758)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x6025237C)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x60252374)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\math.h)(0x60252378)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\nrf.h)(0x609E2778)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\nrf52840.h)(0x609E277A)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\system_nrf52840.h)(0x609E277A)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\nrf52840_bitfields.h)(0x609E277A)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\nrf51_to_nrf52840.h)(0x609E2778)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\nrf52_to_nrf52840.h)(0x609E277A)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\compiler_abstraction.h)(0x609E2778)
-I (..\..\..\..\..\..\components\libraries\bsp\bsp.h)(0x61210B93)
-I (..\..\..\..\..\..\components\boards\boards.h)(0x61210B93)
-I (..\..\..\..\..\..\modules\nrfx\hal\nrf_gpio.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\nrfx.h)(0x61210B97)
-I (..\..\..\..\..\..\integration\nrfx\nrfx_config.h)(0x61210B97)
-I (..\config\sdk_config.h)(0x66659976)
-I (..\..\..\..\..\..\modules\nrfx\drivers/nrfx_common.h)(0x61210B97)
-I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x6025237E)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\nrf_peripherals.h)(0x609E277A)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\nrf52840_peripherals.h)(0x609E277A)
-I (..\..\..\..\..\..\integration\nrfx\nrfx_glue.h)(0x61210B97)
-I (..\..\..\..\..\..\integration\nrfx\legacy/apply_old_config.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\soc/nrfx_irqs.h)(0x61210B98)
-I (..\..\..\..\..\..\modules\nrfx\soc/nrfx_irqs_nrf52840.h)(0x61210B98)
-I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x61210B93)
-I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x61210B93)
-I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x61210B93)
-I (..\..\..\..\..\..\components\libraries\util\app_util_platform.h)(0x61210B93)
-I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x61210B93)
-I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x61210B93)
-I (..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x61210B93)
-I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x61210B93)
-I (..\..\..\..\..\..\modules\nrfx\soc/nrfx_coredep.h)(0x61210B98)
-I (..\..\..\..\..\..\modules\nrfx\soc/nrfx_atomic.h)(0x61210B98)
-I (..\..\..\..\..\..\components\libraries\util\sdk_resources.h)(0x61210B93)
-I (..\..\..\..\..\..\modules\nrfx\drivers/nrfx_errors.h)(0x61210B97)
-I (..\..\..\..\..\..\components\boards\pca10056.h)(0x61210B93)
-I (..\..\..\..\..\..\components\libraries\button\app_button.h)(0x61210B93)
-I (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_saadc.h)(0x66277DBA)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_saadc.h)(0x66681301)
-I (..\..\..\..\..\..\modules\nrfx\hal/nrf_saadc.h)(0x66277D79)
-I (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_ppi.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_ppi.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\hal/nrf_ppi.h)(0x61210B97)
-I (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_timer.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_timer.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\hal/nrf_timer.h)(0x61210B97)
-I (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_clock.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_clock.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\hal/nrf_clock.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_power_clock.h)(0x61210B97)
-I (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_twi.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_twim.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_twi_twim.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\hal/nrf_twim.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_twi.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\hal/nrf_twi.h)(0x61210B97)
-I (..\..\..\..\..\..\components\libraries\delay\nrf_delay.h)(0x61210B93)
-I (..\..\..\..\..\..\components\libraries\mpu\nrf_mpu_lib.h)(0x61210B93)
-I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x60252374)
-I (..\..\..\usr_lib\PanTompkins\PanTompkins.h)(0x661811E4)
-I (..\..\..\usr_lib\filter.h)(0x6665A662)
-I (..\..\..\usr_lib\wavelib\header\wavelib.h)(0x6667F8DB)
-I (..\..\..\usr_lib\hardware\ad8233.h)(0x66659E56)
-I (..\..\..\usr_lib\hardware\sc7a20.h)(0x66208CAF)
-I (..\..\..\config\FreeRTOSConfig.h)(0x661D0C5A)
-I (..\..\..\..\..\..\external\freertos\source\include\FreeRTOS.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\projdefs.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\portable.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\deprecated_definitions.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\portable\ARM\nrf52\portmacro.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\portable\CMSIS\nrf52\portmacro_cmsis.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\mpu_wrappers.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\task.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\list.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\timers.h)(0x6120D62B)
-I (..\..\..\usr_lib\tasks\Task_PanTompkins.h)(0x6616B09C)
-I (..\..\..\usr_lib\tasks\Task_led.h)(0x6616B0DE)
-I (..\..\..\usr_lib\tasks\start_tasks.h)(0x6616AE4C)
-F (..\config\sdk_config.h)(0x66659976)()
+F (..\config\sdk_config.h)(0x666903D7)()
 F (..\..\..\..\..\..\components\boards\boards.c)(0x61210B93)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\..\components -I ..\..\..\..\..\..\components\boards -I ..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I ..\..\..\..\..\..\components\libraries\atomic -I ..\..\..\..\..\..\components\libraries\balloc -I ..\..\..\..\..\..\components\libraries\bsp -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\libraries\experimental_section_vars -I ..\..\..\..\..\..\components\libraries\log -I ..\..\..\..\..\..\components\libraries\log\src -I ..\..\..\..\..\..\components\libraries\memobj -I ..\..\..\..\..\..\components\libraries\ringbuf -I ..\..\..\..\..\..\components\libraries\strerror -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\util -I ..\..\.. -I ..\..\..\..\..\..\external\fprintf -I ..\..\..\..\..\..\external\freertos\config -I ..\..\..\..\..\..\external\freertos\portable\ARM\nrf52 -I ..\..\..\..\..\..\external\freertos\portable\CMSIS\nrf52 -I ..\..\..\..\..\..\external\freertos\source\include -I ..\..\..\..\..\..\integration\nrfx -I ..\..\..\..\..\..\integration\nrfx\legacy -I ..\..\..\..\..\..\modules\nrfx -I ..\..\..\..\..\..\modules\nrfx\drivers\include -I ..\..\..\..\..\..\modules\nrfx\hal -I ..\config -I ..\..\..\..\..\..\components\libraries\delay -I ..\..\..\usr_lib\PanTompkins -I ..\..\..\usr_lib\hardware -I ..\..\..\..\0adc_rtos -I ..\..\..\usr_lib\tasks -I ..\..\..\..\..\..\components\libraries\cli -I ..\..\..\..\..\..\components\libraries\mpu -I ..\..\..\usr_lib -I ..\..\..\usr_lib\wavelib\header -I ..\..\..\usr_lib\wavelib\src --gnu-I.\RTE\_nrf52840_xxaa-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52840_XXAA -D_RTE_ -DBOARD_PCA10056 -DCONFIG_GPIO_AS_PINRESET -DFLOAT_ABI_HARD -DFREERTOS -DNRF52840_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o .\_build\boards.o --omf_browse .\_build\boards.crf --depend .\_build\boards.d)
 I (..\..\..\..\..\..\components\boards\boards.h)(0x61210B93)
 I (..\..\..\..\..\..\modules\nrfx\hal\nrf_gpio.h)(0x61210B97)
 I (..\..\..\..\..\..\modules\nrfx\nrfx.h)(0x61210B97)
 I (..\..\..\..\..\..\integration\nrfx\nrfx_config.h)(0x61210B97)
-I (..\config\sdk_config.h)(0x66659976)
+I (..\config\sdk_config.h)(0x666903D7)
 I (..\..\..\..\..\..\modules\nrfx\drivers/nrfx_common.h)(0x61210B97)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x6025237E)
@@ -139,7 +58,7 @@ I (..\..\..\..\..\..\components\boards\boards.h)(0x61210B93)
 I (..\..\..\..\..\..\modules\nrfx\hal\nrf_gpio.h)(0x61210B97)
 I (..\..\..\..\..\..\modules\nrfx\nrfx.h)(0x61210B97)
 I (..\..\..\..\..\..\integration\nrfx\nrfx_config.h)(0x61210B97)
-I (..\config\sdk_config.h)(0x66659976)
+I (..\config\sdk_config.h)(0x666903D7)
 I (..\..\..\..\..\..\modules\nrfx\drivers/nrfx_common.h)(0x61210B97)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x6025237E)
 I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\nrf.h)(0x609E2778)
@@ -431,7 +350,7 @@ I (..\..\..\..\..\..\external\freertos\source\include\list.h)(0x6120D62B)
 I (..\..\..\..\..\..\modules\nrfx\hal\nrf_rtc.h)(0x61210B97)
 I (..\..\..\..\..\..\modules\nrfx\nrfx.h)(0x61210B97)
 I (..\..\..\..\..\..\integration\nrfx\nrfx_config.h)(0x61210B97)
-I (..\config\sdk_config.h)(0x66659976)
+I (..\config\sdk_config.h)(0x666903D7)
 I (..\..\..\..\..\..\modules\nrfx\drivers/nrfx_common.h)(0x61210B97)
 I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\nrf_peripherals.h)(0x609E277A)
 I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\nrf52840_peripherals.h)(0x609E277A)
@@ -605,7 +524,7 @@ I (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_clock.h)(0x61210B97)
 I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_clock.h)(0x61210B97)
 I (..\..\..\..\..\..\modules\nrfx\nrfx.h)(0x61210B97)
 I (..\..\..\..\..\..\integration\nrfx\nrfx_config.h)(0x61210B97)
-I (..\config\sdk_config.h)(0x66659976)
+I (..\config\sdk_config.h)(0x666903D7)
 I (..\..\..\..\..\..\modules\nrfx\drivers/nrfx_common.h)(0x61210B97)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x6025237E)
@@ -690,7 +609,7 @@ F (..\..\..\..\..\..\modules\nrfx\soc\nrfx_atomic.c)(0x61210B98)(--c99 -c --cpu 
 I (..\..\..\..\..\..\modules\nrfx\soc\nrfx_atomic.h)(0x61210B98)
 I (..\..\..\..\..\..\modules\nrfx\nrfx.h)(0x61210B97)
 I (..\..\..\..\..\..\integration\nrfx\nrfx_config.h)(0x61210B97)
-I (..\config\sdk_config.h)(0x66659976)
+I (..\config\sdk_config.h)(0x666903D7)
 I (..\..\..\..\..\..\modules\nrfx\drivers/nrfx_common.h)(0x61210B97)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x6025237E)
@@ -730,7 +649,7 @@ I (..\..\..\..\..\..\modules\nrfx\soc\nrfx_atomic_internal.h)(0x61210B98)
 F (..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_clock.c)(0x61210B97)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\..\components -I ..\..\..\..\..\..\components\boards -I ..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I ..\..\..\..\..\..\components\libraries\atomic -I ..\..\..\..\..\..\components\libraries\balloc -I ..\..\..\..\..\..\components\libraries\bsp -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\libraries\experimental_section_vars -I ..\..\..\..\..\..\components\libraries\log -I ..\..\..\..\..\..\components\libraries\log\src -I ..\..\..\..\..\..\components\libraries\memobj -I ..\..\..\..\..\..\components\libraries\ringbuf -I ..\..\..\..\..\..\components\libraries\strerror -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\util -I ..\..\.. -I ..\..\..\..\..\..\external\fprintf -I ..\..\..\..\..\..\external\freertos\config -I ..\..\..\..\..\..\external\freertos\portable\ARM\nrf52 -I ..\..\..\..\..\..\external\freertos\portable\CMSIS\nrf52 -I ..\..\..\..\..\..\external\freertos\source\include -I ..\..\..\..\..\..\integration\nrfx -I ..\..\..\..\..\..\integration\nrfx\legacy -I ..\..\..\..\..\..\modules\nrfx -I ..\..\..\..\..\..\modules\nrfx\drivers\include -I ..\..\..\..\..\..\modules\nrfx\hal -I ..\config -I ..\..\..\..\..\..\components\libraries\delay -I ..\..\..\usr_lib\PanTompkins -I ..\..\..\usr_lib\hardware -I ..\..\..\..\0adc_rtos -I ..\..\..\usr_lib\tasks -I ..\..\..\..\..\..\components\libraries\cli -I ..\..\..\..\..\..\components\libraries\mpu -I ..\..\..\usr_lib -I ..\..\..\usr_lib\wavelib\header -I ..\..\..\usr_lib\wavelib\src --gnu-I.\RTE\_nrf52840_xxaa-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52840_XXAA -D_RTE_ -DBOARD_PCA10056 -DCONFIG_GPIO_AS_PINRESET -DFLOAT_ABI_HARD -DFREERTOS -DNRF52840_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o .\_build\nrfx_clock.o --omf_browse .\_build\nrfx_clock.crf --depend .\_build\nrfx_clock.d)
 I (..\..\..\..\..\..\modules\nrfx\nrfx.h)(0x61210B97)
 I (..\..\..\..\..\..\integration\nrfx\nrfx_config.h)(0x61210B97)
-I (..\config\sdk_config.h)(0x66659976)
+I (..\config\sdk_config.h)(0x666903D7)
 I (..\..\..\..\..\..\modules\nrfx\drivers/nrfx_common.h)(0x61210B97)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x6025237E)
@@ -782,7 +701,7 @@ I (..\..\..\..\..\..\components\libraries\log\nrf_log_types.h)(0x61210B93)
 F (..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_gpiote.c)(0x61210B97)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\..\components -I ..\..\..\..\..\..\components\boards -I ..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I ..\..\..\..\..\..\components\libraries\atomic -I ..\..\..\..\..\..\components\libraries\balloc -I ..\..\..\..\..\..\components\libraries\bsp -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\libraries\experimental_section_vars -I ..\..\..\..\..\..\components\libraries\log -I ..\..\..\..\..\..\components\libraries\log\src -I ..\..\..\..\..\..\components\libraries\memobj -I ..\..\..\..\..\..\components\libraries\ringbuf -I ..\..\..\..\..\..\components\libraries\strerror -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\util -I ..\..\.. -I ..\..\..\..\..\..\external\fprintf -I ..\..\..\..\..\..\external\freertos\config -I ..\..\..\..\..\..\external\freertos\portable\ARM\nrf52 -I ..\..\..\..\..\..\external\freertos\portable\CMSIS\nrf52 -I ..\..\..\..\..\..\external\freertos\source\include -I ..\..\..\..\..\..\integration\nrfx -I ..\..\..\..\..\..\integration\nrfx\legacy -I ..\..\..\..\..\..\modules\nrfx -I ..\..\..\..\..\..\modules\nrfx\drivers\include -I ..\..\..\..\..\..\modules\nrfx\hal -I ..\config -I ..\..\..\..\..\..\components\libraries\delay -I ..\..\..\usr_lib\PanTompkins -I ..\..\..\usr_lib\hardware -I ..\..\..\..\0adc_rtos -I ..\..\..\usr_lib\tasks -I ..\..\..\..\..\..\components\libraries\cli -I ..\..\..\..\..\..\components\libraries\mpu -I ..\..\..\usr_lib -I ..\..\..\usr_lib\wavelib\header -I ..\..\..\usr_lib\wavelib\src --gnu-I.\RTE\_nrf52840_xxaa-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52840_XXAA -D_RTE_ -DBOARD_PCA10056 -DCONFIG_GPIO_AS_PINRESET -DFLOAT_ABI_HARD -DFREERTOS -DNRF52840_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o .\_build\nrfx_gpiote.o --omf_browse .\_build\nrfx_gpiote.crf --depend .\_build\nrfx_gpiote.d)
 I (..\..\..\..\..\..\modules\nrfx\nrfx.h)(0x61210B97)
 I (..\..\..\..\..\..\integration\nrfx\nrfx_config.h)(0x61210B97)
-I (..\config\sdk_config.h)(0x66659976)
+I (..\config\sdk_config.h)(0x666903D7)
 I (..\..\..\..\..\..\modules\nrfx\drivers/nrfx_common.h)(0x61210B97)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x6025237E)
@@ -835,7 +754,7 @@ I (..\..\..\..\..\..\components\libraries\log\nrf_log_types.h)(0x61210B93)
 F (..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_saadc.c)(0x61210B97)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\..\components -I ..\..\..\..\..\..\components\boards -I ..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I ..\..\..\..\..\..\components\libraries\atomic -I ..\..\..\..\..\..\components\libraries\balloc -I ..\..\..\..\..\..\components\libraries\bsp -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\libraries\experimental_section_vars -I ..\..\..\..\..\..\components\libraries\log -I ..\..\..\..\..\..\components\libraries\log\src -I ..\..\..\..\..\..\components\libraries\memobj -I ..\..\..\..\..\..\components\libraries\ringbuf -I ..\..\..\..\..\..\components\libraries\strerror -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\util -I ..\..\.. -I ..\..\..\..\..\..\external\fprintf -I ..\..\..\..\..\..\external\freertos\config -I ..\..\..\..\..\..\external\freertos\portable\ARM\nrf52 -I ..\..\..\..\..\..\external\freertos\portable\CMSIS\nrf52 -I ..\..\..\..\..\..\external\freertos\source\include -I ..\..\..\..\..\..\integration\nrfx -I ..\..\..\..\..\..\integration\nrfx\legacy -I ..\..\..\..\..\..\modules\nrfx -I ..\..\..\..\..\..\modules\nrfx\drivers\include -I ..\..\..\..\..\..\modules\nrfx\hal -I ..\config -I ..\..\..\..\..\..\components\libraries\delay -I ..\..\..\usr_lib\PanTompkins -I ..\..\..\usr_lib\hardware -I ..\..\..\..\0adc_rtos -I ..\..\..\usr_lib\tasks -I ..\..\..\..\..\..\components\libraries\cli -I ..\..\..\..\..\..\components\libraries\mpu -I ..\..\..\usr_lib -I ..\..\..\usr_lib\wavelib\header -I ..\..\..\usr_lib\wavelib\src --gnu-I.\RTE\_nrf52840_xxaa-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52840_XXAA -D_RTE_ -DBOARD_PCA10056 -DCONFIG_GPIO_AS_PINRESET -DFLOAT_ABI_HARD -DFREERTOS -DNRF52840_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o .\_build\nrfx_saadc.o --omf_browse .\_build\nrfx_saadc.crf --depend .\_build\nrfx_saadc.d)
 I (..\..\..\..\..\..\modules\nrfx\nrfx.h)(0x61210B97)
 I (..\..\..\..\..\..\integration\nrfx\nrfx_config.h)(0x61210B97)
-I (..\config\sdk_config.h)(0x66659976)
+I (..\config\sdk_config.h)(0x666903D7)
 I (..\..\..\..\..\..\modules\nrfx\drivers/nrfx_common.h)(0x61210B97)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x6025237E)
@@ -886,7 +805,7 @@ I (..\..\..\..\..\..\components\libraries\log\nrf_log_types.h)(0x61210B93)
 F (..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_timer.c)(0x61210B97)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\..\components -I ..\..\..\..\..\..\components\boards -I ..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I ..\..\..\..\..\..\components\libraries\atomic -I ..\..\..\..\..\..\components\libraries\balloc -I ..\..\..\..\..\..\components\libraries\bsp -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\libraries\experimental_section_vars -I ..\..\..\..\..\..\components\libraries\log -I ..\..\..\..\..\..\components\libraries\log\src -I ..\..\..\..\..\..\components\libraries\memobj -I ..\..\..\..\..\..\components\libraries\ringbuf -I ..\..\..\..\..\..\components\libraries\strerror -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\util -I ..\..\.. -I ..\..\..\..\..\..\external\fprintf -I ..\..\..\..\..\..\external\freertos\config -I ..\..\..\..\..\..\external\freertos\portable\ARM\nrf52 -I ..\..\..\..\..\..\external\freertos\portable\CMSIS\nrf52 -I ..\..\..\..\..\..\external\freertos\source\include -I ..\..\..\..\..\..\integration\nrfx -I ..\..\..\..\..\..\integration\nrfx\legacy -I ..\..\..\..\..\..\modules\nrfx -I ..\..\..\..\..\..\modules\nrfx\drivers\include -I ..\..\..\..\..\..\modules\nrfx\hal -I ..\config -I ..\..\..\..\..\..\components\libraries\delay -I ..\..\..\usr_lib\PanTompkins -I ..\..\..\usr_lib\hardware -I ..\..\..\..\0adc_rtos -I ..\..\..\usr_lib\tasks -I ..\..\..\..\..\..\components\libraries\cli -I ..\..\..\..\..\..\components\libraries\mpu -I ..\..\..\usr_lib -I ..\..\..\usr_lib\wavelib\header -I ..\..\..\usr_lib\wavelib\src --gnu-I.\RTE\_nrf52840_xxaa-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52840_XXAA -D_RTE_ -DBOARD_PCA10056 -DCONFIG_GPIO_AS_PINRESET -DFLOAT_ABI_HARD -DFREERTOS -DNRF52840_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o .\_build\nrfx_timer.o --omf_browse .\_build\nrfx_timer.crf --depend .\_build\nrfx_timer.d)
 I (..\..\..\..\..\..\modules\nrfx\nrfx.h)(0x61210B97)
 I (..\..\..\..\..\..\integration\nrfx\nrfx_config.h)(0x61210B97)
-I (..\config\sdk_config.h)(0x66659976)
+I (..\config\sdk_config.h)(0x666903D7)
 I (..\..\..\..\..\..\modules\nrfx\drivers/nrfx_common.h)(0x61210B97)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x6025237E)
@@ -937,7 +856,7 @@ I (..\..\..\..\..\..\components\libraries\log\nrf_log_types.h)(0x61210B93)
 F (..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_ppi.c)(0x61210B97)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\..\components -I ..\..\..\..\..\..\components\boards -I ..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I ..\..\..\..\..\..\components\libraries\atomic -I ..\..\..\..\..\..\components\libraries\balloc -I ..\..\..\..\..\..\components\libraries\bsp -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\libraries\experimental_section_vars -I ..\..\..\..\..\..\components\libraries\log -I ..\..\..\..\..\..\components\libraries\log\src -I ..\..\..\..\..\..\components\libraries\memobj -I ..\..\..\..\..\..\components\libraries\ringbuf -I ..\..\..\..\..\..\components\libraries\strerror -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\util -I ..\..\.. -I ..\..\..\..\..\..\external\fprintf -I ..\..\..\..\..\..\external\freertos\config -I ..\..\..\..\..\..\external\freertos\portable\ARM\nrf52 -I ..\..\..\..\..\..\external\freertos\portable\CMSIS\nrf52 -I ..\..\..\..\..\..\external\freertos\source\include -I ..\..\..\..\..\..\integration\nrfx -I ..\..\..\..\..\..\integration\nrfx\legacy -I ..\..\..\..\..\..\modules\nrfx -I ..\..\..\..\..\..\modules\nrfx\drivers\include -I ..\..\..\..\..\..\modules\nrfx\hal -I ..\config -I ..\..\..\..\..\..\components\libraries\delay -I ..\..\..\usr_lib\PanTompkins -I ..\..\..\usr_lib\hardware -I ..\..\..\..\0adc_rtos -I ..\..\..\usr_lib\tasks -I ..\..\..\..\..\..\components\libraries\cli -I ..\..\..\..\..\..\components\libraries\mpu -I ..\..\..\usr_lib -I ..\..\..\usr_lib\wavelib\header -I ..\..\..\usr_lib\wavelib\src --gnu-I.\RTE\_nrf52840_xxaa-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52840_XXAA -D_RTE_ -DBOARD_PCA10056 -DCONFIG_GPIO_AS_PINRESET -DFLOAT_ABI_HARD -DFREERTOS -DNRF52840_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o .\_build\nrfx_ppi.o --omf_browse .\_build\nrfx_ppi.crf --depend .\_build\nrfx_ppi.d)
 I (..\..\..\..\..\..\modules\nrfx\nrfx.h)(0x61210B97)
 I (..\..\..\..\..\..\integration\nrfx\nrfx_config.h)(0x61210B97)
-I (..\config\sdk_config.h)(0x66659976)
+I (..\config\sdk_config.h)(0x666903D7)
 I (..\..\..\..\..\..\modules\nrfx\drivers/nrfx_common.h)(0x61210B97)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x6025237E)
@@ -990,7 +909,7 @@ I (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_ppi.h)(0x61210B97)
 I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_ppi.h)(0x61210B97)
 I (..\..\..\..\..\..\modules\nrfx\nrfx.h)(0x61210B97)
 I (..\..\..\..\..\..\integration\nrfx\nrfx_config.h)(0x61210B97)
-I (..\config\sdk_config.h)(0x66659976)
+I (..\config\sdk_config.h)(0x666903D7)
 I (..\..\..\..\..\..\modules\nrfx\drivers/nrfx_common.h)(0x61210B97)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x6025237E)
@@ -1030,7 +949,7 @@ I (..\..\..\..\..\..\modules\nrfx\hal/nrf_ppi.h)(0x61210B97)
 F (..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_twi.c)(0x61210B97)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\..\components -I ..\..\..\..\..\..\components\boards -I ..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I ..\..\..\..\..\..\components\libraries\atomic -I ..\..\..\..\..\..\components\libraries\balloc -I ..\..\..\..\..\..\components\libraries\bsp -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\libraries\experimental_section_vars -I ..\..\..\..\..\..\components\libraries\log -I ..\..\..\..\..\..\components\libraries\log\src -I ..\..\..\..\..\..\components\libraries\memobj -I ..\..\..\..\..\..\components\libraries\ringbuf -I ..\..\..\..\..\..\components\libraries\strerror -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\util -I ..\..\.. -I ..\..\..\..\..\..\external\fprintf -I ..\..\..\..\..\..\external\freertos\config -I ..\..\..\..\..\..\external\freertos\portable\ARM\nrf52 -I ..\..\..\..\..\..\external\freertos\portable\CMSIS\nrf52 -I ..\..\..\..\..\..\external\freertos\source\include -I ..\..\..\..\..\..\integration\nrfx -I ..\..\..\..\..\..\integration\nrfx\legacy -I ..\..\..\..\..\..\modules\nrfx -I ..\..\..\..\..\..\modules\nrfx\drivers\include -I ..\..\..\..\..\..\modules\nrfx\hal -I ..\config -I ..\..\..\..\..\..\components\libraries\delay -I ..\..\..\usr_lib\PanTompkins -I ..\..\..\usr_lib\hardware -I ..\..\..\..\0adc_rtos -I ..\..\..\usr_lib\tasks -I ..\..\..\..\..\..\components\libraries\cli -I ..\..\..\..\..\..\components\libraries\mpu -I ..\..\..\usr_lib -I ..\..\..\usr_lib\wavelib\header -I ..\..\..\usr_lib\wavelib\src --gnu-I.\RTE\_nrf52840_xxaa-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52840_XXAA -D_RTE_ -DBOARD_PCA10056 -DCONFIG_GPIO_AS_PINRESET -DFLOAT_ABI_HARD -DFREERTOS -DNRF52840_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o .\_build\nrfx_twi.o --omf_browse .\_build\nrfx_twi.crf --depend .\_build\nrfx_twi.d)
 I (..\..\..\..\..\..\modules\nrfx\nrfx.h)(0x61210B97)
 I (..\..\..\..\..\..\integration\nrfx\nrfx_config.h)(0x61210B97)
-I (..\config\sdk_config.h)(0x66659976)
+I (..\config\sdk_config.h)(0x666903D7)
 I (..\..\..\..\..\..\modules\nrfx\drivers/nrfx_common.h)(0x61210B97)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x6025237E)
@@ -1069,7 +988,7 @@ I (..\..\..\..\..\..\modules\nrfx\drivers/nrfx_errors.h)(0x61210B97)
 F (..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_twim.c)(0x61210B97)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\..\components -I ..\..\..\..\..\..\components\boards -I ..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I ..\..\..\..\..\..\components\libraries\atomic -I ..\..\..\..\..\..\components\libraries\balloc -I ..\..\..\..\..\..\components\libraries\bsp -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\libraries\experimental_section_vars -I ..\..\..\..\..\..\components\libraries\log -I ..\..\..\..\..\..\components\libraries\log\src -I ..\..\..\..\..\..\components\libraries\memobj -I ..\..\..\..\..\..\components\libraries\ringbuf -I ..\..\..\..\..\..\components\libraries\strerror -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\util -I ..\..\.. -I ..\..\..\..\..\..\external\fprintf -I ..\..\..\..\..\..\external\freertos\config -I ..\..\..\..\..\..\external\freertos\portable\ARM\nrf52 -I ..\..\..\..\..\..\external\freertos\portable\CMSIS\nrf52 -I ..\..\..\..\..\..\external\freertos\source\include -I ..\..\..\..\..\..\integration\nrfx -I ..\..\..\..\..\..\integration\nrfx\legacy -I ..\..\..\..\..\..\modules\nrfx -I ..\..\..\..\..\..\modules\nrfx\drivers\include -I ..\..\..\..\..\..\modules\nrfx\hal -I ..\config -I ..\..\..\..\..\..\components\libraries\delay -I ..\..\..\usr_lib\PanTompkins -I ..\..\..\usr_lib\hardware -I ..\..\..\..\0adc_rtos -I ..\..\..\usr_lib\tasks -I ..\..\..\..\..\..\components\libraries\cli -I ..\..\..\..\..\..\components\libraries\mpu -I ..\..\..\usr_lib -I ..\..\..\usr_lib\wavelib\header -I ..\..\..\usr_lib\wavelib\src --gnu-I.\RTE\_nrf52840_xxaa-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52840_XXAA -D_RTE_ -DBOARD_PCA10056 -DCONFIG_GPIO_AS_PINRESET -DFLOAT_ABI_HARD -DFREERTOS -DNRF52840_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o .\_build\nrfx_twim.o --omf_browse .\_build\nrfx_twim.crf --depend .\_build\nrfx_twim.d)
 I (..\..\..\..\..\..\modules\nrfx\nrfx.h)(0x61210B97)
 I (..\..\..\..\..\..\integration\nrfx\nrfx_config.h)(0x61210B97)
-I (..\config\sdk_config.h)(0x66659976)
+I (..\config\sdk_config.h)(0x666903D7)
 I (..\..\..\..\..\..\modules\nrfx\drivers/nrfx_common.h)(0x61210B97)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x6025237E)
@@ -1124,7 +1043,7 @@ F (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_twi.c)(0x61210B97)(--c99 -c
 I (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_twi.h)(0x61210B97)
 I (..\..\..\..\..\..\modules\nrfx\nrfx.h)(0x61210B97)
 I (..\..\..\..\..\..\integration\nrfx\nrfx_config.h)(0x61210B97)
-I (..\config\sdk_config.h)(0x66659976)
+I (..\config\sdk_config.h)(0x666903D7)
 I (..\..\..\..\..\..\modules\nrfx\drivers/nrfx_common.h)(0x61210B97)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x6025237E)
@@ -1170,7 +1089,7 @@ I (..\..\..\..\..\..\modules\nrfx\hal/nrf_gpio.h)(0x61210B97)
 F (..\..\..\..\..\..\modules\nrfx\drivers\src\prs\nrfx_prs.c)(0x61210B97)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\..\components -I ..\..\..\..\..\..\components\boards -I ..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I ..\..\..\..\..\..\components\libraries\atomic -I ..\..\..\..\..\..\components\libraries\balloc -I ..\..\..\..\..\..\components\libraries\bsp -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\libraries\experimental_section_vars -I ..\..\..\..\..\..\components\libraries\log -I ..\..\..\..\..\..\components\libraries\log\src -I ..\..\..\..\..\..\components\libraries\memobj -I ..\..\..\..\..\..\components\libraries\ringbuf -I ..\..\..\..\..\..\components\libraries\strerror -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\util -I ..\..\.. -I ..\..\..\..\..\..\external\fprintf -I ..\..\..\..\..\..\external\freertos\config -I ..\..\..\..\..\..\external\freertos\portable\ARM\nrf52 -I ..\..\..\..\..\..\external\freertos\portable\CMSIS\nrf52 -I ..\..\..\..\..\..\external\freertos\source\include -I ..\..\..\..\..\..\integration\nrfx -I ..\..\..\..\..\..\integration\nrfx\legacy -I ..\..\..\..\..\..\modules\nrfx -I ..\..\..\..\..\..\modules\nrfx\drivers\include -I ..\..\..\..\..\..\modules\nrfx\hal -I ..\config -I ..\..\..\..\..\..\components\libraries\delay -I ..\..\..\usr_lib\PanTompkins -I ..\..\..\usr_lib\hardware -I ..\..\..\..\0adc_rtos -I ..\..\..\usr_lib\tasks -I ..\..\..\..\..\..\components\libraries\cli -I ..\..\..\..\..\..\components\libraries\mpu -I ..\..\..\usr_lib -I ..\..\..\usr_lib\wavelib\header -I ..\..\..\usr_lib\wavelib\src --gnu-I.\RTE\_nrf52840_xxaa-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52840_XXAA -D_RTE_ -DBOARD_PCA10056 -DCONFIG_GPIO_AS_PINRESET -DFLOAT_ABI_HARD -DFREERTOS -DNRF52840_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o .\_build\nrfx_prs.o --omf_browse .\_build\nrfx_prs.crf --depend .\_build\nrfx_prs.d)
 I (..\..\..\..\..\..\modules\nrfx\nrfx.h)(0x61210B97)
 I (..\..\..\..\..\..\integration\nrfx\nrfx_config.h)(0x61210B97)
-I (..\config\sdk_config.h)(0x66659976)
+I (..\config\sdk_config.h)(0x666903D7)
 I (..\..\..\..\..\..\modules\nrfx\drivers/nrfx_common.h)(0x61210B97)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x6025237E)
@@ -1220,7 +1139,7 @@ I (..\..\..\..\..\..\components\libraries\log\nrf_log_types.h)(0x61210B93)
 F (..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_uart.c)(0x61210B97)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\..\components -I ..\..\..\..\..\..\components\boards -I ..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I ..\..\..\..\..\..\components\libraries\atomic -I ..\..\..\..\..\..\components\libraries\balloc -I ..\..\..\..\..\..\components\libraries\bsp -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\libraries\experimental_section_vars -I ..\..\..\..\..\..\components\libraries\log -I ..\..\..\..\..\..\components\libraries\log\src -I ..\..\..\..\..\..\components\libraries\memobj -I ..\..\..\..\..\..\components\libraries\ringbuf -I ..\..\..\..\..\..\components\libraries\strerror -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\util -I ..\..\.. -I ..\..\..\..\..\..\external\fprintf -I ..\..\..\..\..\..\external\freertos\config -I ..\..\..\..\..\..\external\freertos\portable\ARM\nrf52 -I ..\..\..\..\..\..\external\freertos\portable\CMSIS\nrf52 -I ..\..\..\..\..\..\external\freertos\source\include -I ..\..\..\..\..\..\integration\nrfx -I ..\..\..\..\..\..\integration\nrfx\legacy -I ..\..\..\..\..\..\modules\nrfx -I ..\..\..\..\..\..\modules\nrfx\drivers\include -I ..\..\..\..\..\..\modules\nrfx\hal -I ..\config -I ..\..\..\..\..\..\components\libraries\delay -I ..\..\..\usr_lib\PanTompkins -I ..\..\..\usr_lib\hardware -I ..\..\..\..\0adc_rtos -I ..\..\..\usr_lib\tasks -I ..\..\..\..\..\..\components\libraries\cli -I ..\..\..\..\..\..\components\libraries\mpu -I ..\..\..\usr_lib -I ..\..\..\usr_lib\wavelib\header -I ..\..\..\usr_lib\wavelib\src --gnu-I.\RTE\_nrf52840_xxaa-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52840_XXAA -D_RTE_ -DBOARD_PCA10056 -DCONFIG_GPIO_AS_PINRESET -DFLOAT_ABI_HARD -DFREERTOS -DNRF52840_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o .\_build\nrfx_uart.o --omf_browse .\_build\nrfx_uart.crf --depend .\_build\nrfx_uart.d)
 I (..\..\..\..\..\..\modules\nrfx\nrfx.h)(0x61210B97)
 I (..\..\..\..\..\..\integration\nrfx\nrfx_config.h)(0x61210B97)
-I (..\config\sdk_config.h)(0x66659976)
+I (..\config\sdk_config.h)(0x666903D7)
 I (..\..\..\..\..\..\modules\nrfx\drivers/nrfx_common.h)(0x61210B97)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x6025237E)
@@ -1273,7 +1192,7 @@ I (..\..\..\..\..\..\components\libraries\log\nrf_log_types.h)(0x61210B93)
 F (..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_uarte.c)(0x61210B97)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\..\components -I ..\..\..\..\..\..\components\boards -I ..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I ..\..\..\..\..\..\components\libraries\atomic -I ..\..\..\..\..\..\components\libraries\balloc -I ..\..\..\..\..\..\components\libraries\bsp -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\libraries\experimental_section_vars -I ..\..\..\..\..\..\components\libraries\log -I ..\..\..\..\..\..\components\libraries\log\src -I ..\..\..\..\..\..\components\libraries\memobj -I ..\..\..\..\..\..\components\libraries\ringbuf -I ..\..\..\..\..\..\components\libraries\strerror -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\util -I ..\..\.. -I ..\..\..\..\..\..\external\fprintf -I ..\..\..\..\..\..\external\freertos\config -I ..\..\..\..\..\..\external\freertos\portable\ARM\nrf52 -I ..\..\..\..\..\..\external\freertos\portable\CMSIS\nrf52 -I ..\..\..\..\..\..\external\freertos\source\include -I ..\..\..\..\..\..\integration\nrfx -I ..\..\..\..\..\..\integration\nrfx\legacy -I ..\..\..\..\..\..\modules\nrfx -I ..\..\..\..\..\..\modules\nrfx\drivers\include -I ..\..\..\..\..\..\modules\nrfx\hal -I ..\config -I ..\..\..\..\..\..\components\libraries\delay -I ..\..\..\usr_lib\PanTompkins -I ..\..\..\usr_lib\hardware -I ..\..\..\..\0adc_rtos -I ..\..\..\usr_lib\tasks -I ..\..\..\..\..\..\components\libraries\cli -I ..\..\..\..\..\..\components\libraries\mpu -I ..\..\..\usr_lib -I ..\..\..\usr_lib\wavelib\header -I ..\..\..\usr_lib\wavelib\src --gnu-I.\RTE\_nrf52840_xxaa-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52840_XXAA -D_RTE_ -DBOARD_PCA10056 -DCONFIG_GPIO_AS_PINRESET -DFLOAT_ABI_HARD -DFREERTOS -DNRF52840_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o .\_build\nrfx_uarte.o --omf_browse .\_build\nrfx_uarte.crf --depend .\_build\nrfx_uarte.d)
 I (..\..\..\..\..\..\modules\nrfx\nrfx.h)(0x61210B97)
 I (..\..\..\..\..\..\integration\nrfx\nrfx_config.h)(0x61210B97)
-I (..\config\sdk_config.h)(0x66659976)
+I (..\config\sdk_config.h)(0x666903D7)
 I (..\..\..\..\..\..\modules\nrfx\drivers/nrfx_common.h)(0x61210B97)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x6025237E)
@@ -1327,7 +1246,7 @@ F (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_uart.c)(0x61210B97)(--c99 -
 I (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_uart.h)(0x61210B97)
 I (..\..\..\..\..\..\modules\nrfx\nrfx.h)(0x61210B97)
 I (..\..\..\..\..\..\integration\nrfx\nrfx_config.h)(0x61210B97)
-I (..\config\sdk_config.h)(0x66659976)
+I (..\config\sdk_config.h)(0x666903D7)
 I (..\..\..\..\..\..\modules\nrfx\drivers/nrfx_common.h)(0x61210B97)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x6025237E)
@@ -1372,7 +1291,7 @@ I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x61210B93)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x6025237C)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x6025237E)
-I (..\config\sdk_config.h)(0x66659976)
+I (..\config\sdk_config.h)(0x666903D7)
 I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x61210B93)
 I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\compiler_abstraction.h)(0x609E2778)
 I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x61210B93)
@@ -1448,7 +1367,7 @@ I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x61210B93)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x6025237C)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x6025237E)
-I (..\config\sdk_config.h)(0x66659976)
+I (..\config\sdk_config.h)(0x666903D7)
 I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x61210B93)
 I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\compiler_abstraction.h)(0x609E2778)
 I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x61210B93)
@@ -1496,7 +1415,7 @@ I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x61210B93)
 I (..\..\..\..\..\..\components\libraries\log\nrf_log.h)(0x61210B93)
 I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x61210B93)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x6025237E)
-I (..\config\sdk_config.h)(0x66659976)
+I (..\config\sdk_config.h)(0x666903D7)
 I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x61210B93)
 I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x61210B93)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x6025237E)
@@ -1516,7 +1435,7 @@ I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x61210B93)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x6025237C)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x6025237E)
-I (..\config\sdk_config.h)(0x66659976)
+I (..\config\sdk_config.h)(0x666903D7)
 I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x61210B93)
 I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\compiler_abstraction.h)(0x609E2778)
 I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x61210B93)
@@ -1605,7 +1524,7 @@ I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x61210B93)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x6025237C)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x6025237E)
-I (..\config\sdk_config.h)(0x66659976)
+I (..\config\sdk_config.h)(0x666903D7)
 I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x61210B93)
 I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\compiler_abstraction.h)(0x609E2778)
 I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x61210B93)
@@ -1632,7 +1551,7 @@ I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x61210B93)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x6025237C)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x6025237E)
-I (..\config\sdk_config.h)(0x66659976)
+I (..\config\sdk_config.h)(0x666903D7)
 I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x61210B93)
 I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\compiler_abstraction.h)(0x609E2778)
 I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x61210B93)
@@ -1668,7 +1587,7 @@ I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x61210B93)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x6025237C)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x6025237E)
-I (..\config\sdk_config.h)(0x66659976)
+I (..\config\sdk_config.h)(0x666903D7)
 I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x61210B93)
 I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\compiler_abstraction.h)(0x609E2778)
 I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x61210B93)
@@ -1697,7 +1616,7 @@ I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x61210B93)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x6025237C)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x6025237E)
-I (..\config\sdk_config.h)(0x66659976)
+I (..\config\sdk_config.h)(0x666903D7)
 I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x61210B93)
 I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\compiler_abstraction.h)(0x609E2778)
 I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x61210B93)
@@ -1728,7 +1647,7 @@ I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x60252374)
 I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x61210B93)
 I (..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x61210B93)
 I (..\..\..\..\..\..\components\libraries\balloc\nrf_balloc.h)(0x61210B93)
-I (..\config\sdk_config.h)(0x66659976)
+I (..\config\sdk_config.h)(0x666903D7)
 I (..\..\..\..\..\..\components\libraries\util\app_util_platform.h)(0x61210B93)
 I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\compiler_abstraction.h)(0x609E2778)
 I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\nrf.h)(0x609E2778)
@@ -1765,7 +1684,7 @@ I (..\..\..\..\..\..\components\libraries\atomic\nrf_atomic.h)(0x61210B93)
 I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x61210B93)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x6025237C)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x6025237E)
-I (..\config\sdk_config.h)(0x66659976)
+I (..\config\sdk_config.h)(0x666903D7)
 I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x61210B93)
 I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\compiler_abstraction.h)(0x609E2778)
 I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x61210B93)
@@ -1795,7 +1714,7 @@ I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x61210B93)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x6025237C)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x6025237E)
-I (..\config\sdk_config.h)(0x66659976)
+I (..\config\sdk_config.h)(0x666903D7)
 I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x61210B93)
 I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\compiler_abstraction.h)(0x609E2778)
 I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x61210B93)
@@ -1841,7 +1760,7 @@ I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x60252374)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x6025237C)
 I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x61210B93)
 I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x61210B93)
-I (..\config\sdk_config.h)(0x66659976)
+I (..\config\sdk_config.h)(0x666903D7)
 I (..\..\..\..\..\..\components\libraries\log\nrf_log.h)(0x61210B93)
 I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x61210B93)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x6025237E)
@@ -1858,7 +1777,7 @@ I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x61210B93)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x6025237C)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x6025237E)
-I (..\config\sdk_config.h)(0x66659976)
+I (..\config\sdk_config.h)(0x666903D7)
 I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x61210B93)
 I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\compiler_abstraction.h)(0x609E2778)
 I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x61210B93)
@@ -1884,7 +1803,7 @@ I (..\..\..\..\..\..\components\libraries\util\sdk_common.h)(0x61210B93)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x6025237C)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x6025237E)
-I (..\config\sdk_config.h)(0x66659976)
+I (..\config\sdk_config.h)(0x666903D7)
 I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x61210B93)
 I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\compiler_abstraction.h)(0x609E2778)
 I (..\..\..\..\..\..\components\libraries\util\sdk_os.h)(0x61210B93)
@@ -1911,7 +1830,7 @@ I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x6025237E)
 F (..\..\..\usr_lib\filter.c)(0x6665A6D3)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\..\components -I ..\..\..\..\..\..\components\boards -I ..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I ..\..\..\..\..\..\components\libraries\atomic -I ..\..\..\..\..\..\components\libraries\balloc -I ..\..\..\..\..\..\components\libraries\bsp -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\libraries\experimental_section_vars -I ..\..\..\..\..\..\components\libraries\log -I ..\..\..\..\..\..\components\libraries\log\src -I ..\..\..\..\..\..\components\libraries\memobj -I ..\..\..\..\..\..\components\libraries\ringbuf -I ..\..\..\..\..\..\components\libraries\strerror -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\util -I ..\..\.. -I ..\..\..\..\..\..\external\fprintf -I ..\..\..\..\..\..\external\freertos\config -I ..\..\..\..\..\..\external\freertos\portable\ARM\nrf52 -I ..\..\..\..\..\..\external\freertos\portable\CMSIS\nrf52 -I ..\..\..\..\..\..\external\freertos\source\include -I ..\..\..\..\..\..\integration\nrfx -I ..\..\..\..\..\..\integration\nrfx\legacy -I ..\..\..\..\..\..\modules\nrfx -I ..\..\..\..\..\..\modules\nrfx\drivers\include -I ..\..\..\..\..\..\modules\nrfx\hal -I ..\config -I ..\..\..\..\..\..\components\libraries\delay -I ..\..\..\usr_lib\PanTompkins -I ..\..\..\usr_lib\hardware -I ..\..\..\..\0adc_rtos -I ..\..\..\usr_lib\tasks -I ..\..\..\..\..\..\components\libraries\cli -I ..\..\..\..\..\..\components\libraries\mpu -I ..\..\..\usr_lib -I ..\..\..\usr_lib\wavelib\header -I ..\..\..\usr_lib\wavelib\src --gnu-I.\RTE\_nrf52840_xxaa-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52840_XXAA -D_RTE_ -DBOARD_PCA10056 -DCONFIG_GPIO_AS_PINRESET -DFLOAT_ABI_HARD -DFREERTOS -DNRF52840_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o .\_build\filter.o --omf_browse .\_build\filter.crf --depend .\_build\filter.d)
 I (..\..\..\usr_lib\filter.h)(0x6665A662)
-F (..\..\..\usr_lib\wavelib\src\wavelib.c)(0x6667FB7C)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\..\components -I ..\..\..\..\..\..\components\boards -I ..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I ..\..\..\..\..\..\components\libraries\atomic -I ..\..\..\..\..\..\components\libraries\balloc -I ..\..\..\..\..\..\components\libraries\bsp -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\libraries\experimental_section_vars -I ..\..\..\..\..\..\components\libraries\log -I ..\..\..\..\..\..\components\libraries\log\src -I ..\..\..\..\..\..\components\libraries\memobj -I ..\..\..\..\..\..\components\libraries\ringbuf -I ..\..\..\..\..\..\components\libraries\strerror -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\util -I ..\..\.. -I ..\..\..\..\..\..\external\fprintf -I ..\..\..\..\..\..\external\freertos\config -I ..\..\..\..\..\..\external\freertos\portable\ARM\nrf52 -I ..\..\..\..\..\..\external\freertos\portable\CMSIS\nrf52 -I ..\..\..\..\..\..\external\freertos\source\include -I ..\..\..\..\..\..\integration\nrfx -I ..\..\..\..\..\..\integration\nrfx\legacy -I ..\..\..\..\..\..\modules\nrfx -I ..\..\..\..\..\..\modules\nrfx\drivers\include -I ..\..\..\..\..\..\modules\nrfx\hal -I ..\config -I ..\..\..\..\..\..\components\libraries\delay -I ..\..\..\usr_lib\PanTompkins -I ..\..\..\usr_lib\hardware -I ..\..\..\..\0adc_rtos -I ..\..\..\usr_lib\tasks -I ..\..\..\..\..\..\components\libraries\cli -I ..\..\..\..\..\..\components\libraries\mpu -I ..\..\..\usr_lib -I ..\..\..\usr_lib\wavelib\header -I ..\..\..\usr_lib\wavelib\src --gnu-I.\RTE\_nrf52840_xxaa-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52840_XXAA -D_RTE_ -DBOARD_PCA10056 -DCONFIG_GPIO_AS_PINRESET -DFLOAT_ABI_HARD -DFREERTOS -DNRF52840_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o .\_build\wavelib.o --omf_browse .\_build\wavelib.crf --depend .\_build\wavelib.d)
+F (..\..\..\usr_lib\wavelib\src\wavelib.c)(0x6669063C)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\..\components -I ..\..\..\..\..\..\components\boards -I ..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I ..\..\..\..\..\..\components\libraries\atomic -I ..\..\..\..\..\..\components\libraries\balloc -I ..\..\..\..\..\..\components\libraries\bsp -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\libraries\experimental_section_vars -I ..\..\..\..\..\..\components\libraries\log -I ..\..\..\..\..\..\components\libraries\log\src -I ..\..\..\..\..\..\components\libraries\memobj -I ..\..\..\..\..\..\components\libraries\ringbuf -I ..\..\..\..\..\..\components\libraries\strerror -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\util -I ..\..\.. -I ..\..\..\..\..\..\external\fprintf -I ..\..\..\..\..\..\external\freertos\config -I ..\..\..\..\..\..\external\freertos\portable\ARM\nrf52 -I ..\..\..\..\..\..\external\freertos\portable\CMSIS\nrf52 -I ..\..\..\..\..\..\external\freertos\source\include -I ..\..\..\..\..\..\integration\nrfx -I ..\..\..\..\..\..\integration\nrfx\legacy -I ..\..\..\..\..\..\modules\nrfx -I ..\..\..\..\..\..\modules\nrfx\drivers\include -I ..\..\..\..\..\..\modules\nrfx\hal -I ..\config -I ..\..\..\..\..\..\components\libraries\delay -I ..\..\..\usr_lib\PanTompkins -I ..\..\..\usr_lib\hardware -I ..\..\..\..\0adc_rtos -I ..\..\..\usr_lib\tasks -I ..\..\..\..\..\..\components\libraries\cli -I ..\..\..\..\..\..\components\libraries\mpu -I ..\..\..\usr_lib -I ..\..\..\usr_lib\wavelib\header -I ..\..\..\usr_lib\wavelib\src --gnu-I.\RTE\_nrf52840_xxaa-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52840_XXAA -D_RTE_ -DBOARD_PCA10056 -DCONFIG_GPIO_AS_PINRESET -DFLOAT_ABI_HARD -DFREERTOS -DNRF52840_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o .\_build\wavelib.o --omf_browse .\_build\wavelib.crf --depend .\_build\wavelib.d)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\math.h)(0x60252378)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x60252374)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x60252374)
@@ -2007,13 +1926,13 @@ I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x60252374)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\math.h)(0x60252378)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x6025237E)
 I (..\..\..\usr_lib\wavelib\src\../header/wavelib.h)(0x6667F8DB)
-F (..\..\..\usr_lib\hardware\ad8233.c)(0x666814BC)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\..\components -I ..\..\..\..\..\..\components\boards -I ..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I ..\..\..\..\..\..\components\libraries\atomic -I ..\..\..\..\..\..\components\libraries\balloc -I ..\..\..\..\..\..\components\libraries\bsp -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\libraries\experimental_section_vars -I ..\..\..\..\..\..\components\libraries\log -I ..\..\..\..\..\..\components\libraries\log\src -I ..\..\..\..\..\..\components\libraries\memobj -I ..\..\..\..\..\..\components\libraries\ringbuf -I ..\..\..\..\..\..\components\libraries\strerror -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\util -I ..\..\.. -I ..\..\..\..\..\..\external\fprintf -I ..\..\..\..\..\..\external\freertos\config -I ..\..\..\..\..\..\external\freertos\portable\ARM\nrf52 -I ..\..\..\..\..\..\external\freertos\portable\CMSIS\nrf52 -I ..\..\..\..\..\..\external\freertos\source\include -I ..\..\..\..\..\..\integration\nrfx -I ..\..\..\..\..\..\integration\nrfx\legacy -I ..\..\..\..\..\..\modules\nrfx -I ..\..\..\..\..\..\modules\nrfx\drivers\include -I ..\..\..\..\..\..\modules\nrfx\hal -I ..\config -I ..\..\..\..\..\..\components\libraries\delay -I ..\..\..\usr_lib\PanTompkins -I ..\..\..\usr_lib\hardware -I ..\..\..\..\0adc_rtos -I ..\..\..\usr_lib\tasks -I ..\..\..\..\..\..\components\libraries\cli -I ..\..\..\..\..\..\components\libraries\mpu -I ..\..\..\usr_lib -I ..\..\..\usr_lib\wavelib\header -I ..\..\..\usr_lib\wavelib\src --gnu-I.\RTE\_nrf52840_xxaa-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52840_XXAA -D_RTE_ -DBOARD_PCA10056 -DCONFIG_GPIO_AS_PINRESET -DFLOAT_ABI_HARD -DFREERTOS -DNRF52840_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o .\_build\ad8233.o --omf_browse .\_build\ad8233.crf --depend .\_build\ad8233.d)
+F (..\..\..\usr_lib\hardware\ad8233.c)(0x666905FC)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\..\components -I ..\..\..\..\..\..\components\boards -I ..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I ..\..\..\..\..\..\components\libraries\atomic -I ..\..\..\..\..\..\components\libraries\balloc -I ..\..\..\..\..\..\components\libraries\bsp -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\libraries\experimental_section_vars -I ..\..\..\..\..\..\components\libraries\log -I ..\..\..\..\..\..\components\libraries\log\src -I ..\..\..\..\..\..\components\libraries\memobj -I ..\..\..\..\..\..\components\libraries\ringbuf -I ..\..\..\..\..\..\components\libraries\strerror -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\util -I ..\..\.. -I ..\..\..\..\..\..\external\fprintf -I ..\..\..\..\..\..\external\freertos\config -I ..\..\..\..\..\..\external\freertos\portable\ARM\nrf52 -I ..\..\..\..\..\..\external\freertos\portable\CMSIS\nrf52 -I ..\..\..\..\..\..\external\freertos\source\include -I ..\..\..\..\..\..\integration\nrfx -I ..\..\..\..\..\..\integration\nrfx\legacy -I ..\..\..\..\..\..\modules\nrfx -I ..\..\..\..\..\..\modules\nrfx\drivers\include -I ..\..\..\..\..\..\modules\nrfx\hal -I ..\config -I ..\..\..\..\..\..\components\libraries\delay -I ..\..\..\usr_lib\PanTompkins -I ..\..\..\usr_lib\hardware -I ..\..\..\..\0adc_rtos -I ..\..\..\usr_lib\tasks -I ..\..\..\..\..\..\components\libraries\cli -I ..\..\..\..\..\..\components\libraries\mpu -I ..\..\..\usr_lib -I ..\..\..\usr_lib\wavelib\header -I ..\..\..\usr_lib\wavelib\src --gnu-I.\RTE\_nrf52840_xxaa-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52840_XXAA -D_RTE_ -DBOARD_PCA10056 -DCONFIG_GPIO_AS_PINRESET -DFLOAT_ABI_HARD -DFREERTOS -DNRF52840_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o .\_build\ad8233.o --omf_browse .\_build\ad8233.crf --depend .\_build\ad8233.d)
 I (..\..\..\usr_lib\hardware\ad8233.h)(0x66659E56)
 I (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_saadc.h)(0x66277DBA)
 I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_saadc.h)(0x66681301)
 I (..\..\..\..\..\..\modules\nrfx\nrfx.h)(0x61210B97)
 I (..\..\..\..\..\..\integration\nrfx\nrfx_config.h)(0x61210B97)
-I (..\config\sdk_config.h)(0x66659976)
+I (..\config\sdk_config.h)(0x666903D7)
 I (..\..\..\..\..\..\modules\nrfx\drivers/nrfx_common.h)(0x61210B97)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x6025237E)
@@ -2062,45 +1981,15 @@ I (..\..\..\..\..\..\modules\nrfx\hal/nrf_clock.h)(0x61210B97)
 I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_power_clock.h)(0x61210B97)
 I (..\..\..\..\..\..\modules\nrfx\hal\nrf_gpio.h)(0x61210B97)
 I (..\..\..\..\..\..\components\libraries\delay\nrf_delay.h)(0x61210B93)
-I (..\..\..\main.h)(0x6667F490)
+I (..\..\..\main.h)(0x66690758)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\math.h)(0x60252378)
-I (..\..\..\..\..\..\components\libraries\bsp\bsp.h)(0x61210B93)
-I (..\..\..\..\..\..\components\boards\boards.h)(0x61210B93)
-I (..\..\..\..\..\..\components\boards\pca10056.h)(0x61210B93)
-I (..\..\..\..\..\..\components\libraries\button\app_button.h)(0x61210B93)
-I (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_twi.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_twim.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_twi_twim.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\hal/nrf_twim.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_twi.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\hal/nrf_twi.h)(0x61210B97)
-I (..\..\..\..\..\..\components\libraries\mpu\nrf_mpu_lib.h)(0x61210B93)
-I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x60252374)
-I (..\..\..\usr_lib\PanTompkins\PanTompkins.h)(0x661811E4)
-I (..\..\..\usr_lib\filter.h)(0x6665A662)
-I (..\..\..\usr_lib\wavelib\header\wavelib.h)(0x6667F8DB)
-I (..\..\..\usr_lib\hardware\sc7a20.h)(0x66208CAF)
-I (..\..\..\config\FreeRTOSConfig.h)(0x661D0C5A)
-I (..\..\..\..\..\..\external\freertos\source\include\FreeRTOS.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\projdefs.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\portable.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\deprecated_definitions.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\portable\ARM\nrf52\portmacro.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\portable\CMSIS\nrf52\portmacro_cmsis.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\mpu_wrappers.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\task.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\list.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\timers.h)(0x6120D62B)
-I (..\..\..\usr_lib\tasks\Task_PanTompkins.h)(0x6616B09C)
-I (..\..\..\usr_lib\tasks\Task_led.h)(0x6616B0DE)
-I (..\..\..\usr_lib\tasks\start_tasks.h)(0x6616AE4C)
 F (..\..\..\usr_lib\hardware\sc7a20.c)(0x6620C2A2)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\..\components -I ..\..\..\..\..\..\components\boards -I ..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I ..\..\..\..\..\..\components\libraries\atomic -I ..\..\..\..\..\..\components\libraries\balloc -I ..\..\..\..\..\..\components\libraries\bsp -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\libraries\experimental_section_vars -I ..\..\..\..\..\..\components\libraries\log -I ..\..\..\..\..\..\components\libraries\log\src -I ..\..\..\..\..\..\components\libraries\memobj -I ..\..\..\..\..\..\components\libraries\ringbuf -I ..\..\..\..\..\..\components\libraries\strerror -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\util -I ..\..\.. -I ..\..\..\..\..\..\external\fprintf -I ..\..\..\..\..\..\external\freertos\config -I ..\..\..\..\..\..\external\freertos\portable\ARM\nrf52 -I ..\..\..\..\..\..\external\freertos\portable\CMSIS\nrf52 -I ..\..\..\..\..\..\external\freertos\source\include -I ..\..\..\..\..\..\integration\nrfx -I ..\..\..\..\..\..\integration\nrfx\legacy -I ..\..\..\..\..\..\modules\nrfx -I ..\..\..\..\..\..\modules\nrfx\drivers\include -I ..\..\..\..\..\..\modules\nrfx\hal -I ..\config -I ..\..\..\..\..\..\components\libraries\delay -I ..\..\..\usr_lib\PanTompkins -I ..\..\..\usr_lib\hardware -I ..\..\..\..\0adc_rtos -I ..\..\..\usr_lib\tasks -I ..\..\..\..\..\..\components\libraries\cli -I ..\..\..\..\..\..\components\libraries\mpu -I ..\..\..\usr_lib -I ..\..\..\usr_lib\wavelib\header -I ..\..\..\usr_lib\wavelib\src --gnu-I.\RTE\_nrf52840_xxaa-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52840_XXAA -D_RTE_ -DBOARD_PCA10056 -DCONFIG_GPIO_AS_PINRESET -DFLOAT_ABI_HARD -DFREERTOS -DNRF52840_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o .\_build\sc7a20.o --omf_browse .\_build\sc7a20.crf --depend .\_build\sc7a20.d)
 I (..\..\..\usr_lib\hardware\sc7a20.h)(0x66208CAF)
 I (..\..\..\..\..\..\components\libraries\delay\nrf_delay.h)(0x61210B93)
 I (..\..\..\..\..\..\modules\nrfx\nrfx.h)(0x61210B97)
 I (..\..\..\..\..\..\integration\nrfx\nrfx_config.h)(0x61210B97)
-I (..\config\sdk_config.h)(0x66659976)
+I (..\config\sdk_config.h)(0x666903D7)
 I (..\..\..\..\..\..\modules\nrfx\drivers/nrfx_common.h)(0x61210B97)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x6025237E)
@@ -2136,53 +2025,9 @@ I (..\..\..\..\..\..\modules\nrfx\soc/nrfx_coredep.h)(0x61210B98)
 I (..\..\..\..\..\..\modules\nrfx\soc/nrfx_atomic.h)(0x61210B98)
 I (..\..\..\..\..\..\components\libraries\util\sdk_resources.h)(0x61210B93)
 I (..\..\..\..\..\..\modules\nrfx\drivers/nrfx_errors.h)(0x61210B97)
-I (..\..\..\main.h)(0x6667F490)
+I (..\..\..\main.h)(0x66690758)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\math.h)(0x60252378)
-I (..\..\..\..\..\..\components\libraries\bsp\bsp.h)(0x61210B93)
-I (..\..\..\..\..\..\components\boards\boards.h)(0x61210B93)
-I (..\..\..\..\..\..\modules\nrfx\hal\nrf_gpio.h)(0x61210B97)
-I (..\..\..\..\..\..\components\boards\pca10056.h)(0x61210B93)
-I (..\..\..\..\..\..\components\libraries\button\app_button.h)(0x61210B93)
-I (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_saadc.h)(0x66277DBA)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_saadc.h)(0x66681301)
-I (..\..\..\..\..\..\modules\nrfx\hal/nrf_saadc.h)(0x66277D79)
-I (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_ppi.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_ppi.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\hal/nrf_ppi.h)(0x61210B97)
-I (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_timer.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_timer.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\hal/nrf_timer.h)(0x61210B97)
-I (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_clock.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_clock.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\hal/nrf_clock.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_power_clock.h)(0x61210B97)
-I (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_twi.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_twim.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_twi_twim.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\hal/nrf_twim.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_twi.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\hal/nrf_twi.h)(0x61210B97)
-I (..\..\..\..\..\..\components\libraries\mpu\nrf_mpu_lib.h)(0x61210B93)
-I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x60252374)
-I (..\..\..\usr_lib\PanTompkins\PanTompkins.h)(0x661811E4)
-I (..\..\..\usr_lib\filter.h)(0x6665A662)
-I (..\..\..\usr_lib\wavelib\header\wavelib.h)(0x6667F8DB)
-I (..\..\..\usr_lib\hardware\ad8233.h)(0x66659E56)
-I (..\..\..\config\FreeRTOSConfig.h)(0x661D0C5A)
-I (..\..\..\..\..\..\external\freertos\source\include\FreeRTOS.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\projdefs.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\portable.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\deprecated_definitions.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\portable\ARM\nrf52\portmacro.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\portable\CMSIS\nrf52\portmacro_cmsis.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\mpu_wrappers.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\task.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\list.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\timers.h)(0x6120D62B)
-I (..\..\..\usr_lib\tasks\Task_PanTompkins.h)(0x6616B09C)
-I (..\..\..\usr_lib\tasks\Task_led.h)(0x6616B0DE)
-I (..\..\..\usr_lib\tasks\start_tasks.h)(0x6616AE4C)
 F (..\..\..\usr_lib\hardware\sc7a20_test.c)(0x661E8348)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\..\components -I ..\..\..\..\..\..\components\boards -I ..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I ..\..\..\..\..\..\components\libraries\atomic -I ..\..\..\..\..\..\components\libraries\balloc -I ..\..\..\..\..\..\components\libraries\bsp -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\libraries\experimental_section_vars -I ..\..\..\..\..\..\components\libraries\log -I ..\..\..\..\..\..\components\libraries\log\src -I ..\..\..\..\..\..\components\libraries\memobj -I ..\..\..\..\..\..\components\libraries\ringbuf -I ..\..\..\..\..\..\components\libraries\strerror -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\util -I ..\..\.. -I ..\..\..\..\..\..\external\fprintf -I ..\..\..\..\..\..\external\freertos\config -I ..\..\..\..\..\..\external\freertos\portable\ARM\nrf52 -I ..\..\..\..\..\..\external\freertos\portable\CMSIS\nrf52 -I ..\..\..\..\..\..\external\freertos\source\include -I ..\..\..\..\..\..\integration\nrfx -I ..\..\..\..\..\..\integration\nrfx\legacy -I ..\..\..\..\..\..\modules\nrfx -I ..\..\..\..\..\..\modules\nrfx\drivers\include -I ..\..\..\..\..\..\modules\nrfx\hal -I ..\config -I ..\..\..\..\..\..\components\libraries\delay -I ..\..\..\usr_lib\PanTompkins -I ..\..\..\usr_lib\hardware -I ..\..\..\..\0adc_rtos -I ..\..\..\usr_lib\tasks -I ..\..\..\..\..\..\components\libraries\cli -I ..\..\..\..\..\..\components\libraries\mpu -I ..\..\..\usr_lib -I ..\..\..\usr_lib\wavelib\header -I ..\..\..\usr_lib\wavelib\src --gnu-I.\RTE\_nrf52840_xxaa-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52840_XXAA -D_RTE_ -DBOARD_PCA10056 -DCONFIG_GPIO_AS_PINRESET -DFLOAT_ABI_HARD -DFREERTOS -DNRF52840_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o .\_build\sc7a20_test.o --omf_browse .\_build\sc7a20_test.crf --depend .\_build\sc7a20_test.d)
 F (..\..\..\usr_lib\tasks\start_tasks.c)(0x661D1C3B)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\..\components -I ..\..\..\..\..\..\components\boards -I ..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I ..\..\..\..\..\..\components\libraries\atomic -I ..\..\..\..\..\..\components\libraries\balloc -I ..\..\..\..\..\..\components\libraries\bsp -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\libraries\experimental_section_vars -I ..\..\..\..\..\..\components\libraries\log -I ..\..\..\..\..\..\components\libraries\log\src -I ..\..\..\..\..\..\components\libraries\memobj -I ..\..\..\..\..\..\components\libraries\ringbuf -I ..\..\..\..\..\..\components\libraries\strerror -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\util -I ..\..\.. -I ..\..\..\..\..\..\external\fprintf -I ..\..\..\..\..\..\external\freertos\config -I ..\..\..\..\..\..\external\freertos\portable\ARM\nrf52 -I ..\..\..\..\..\..\external\freertos\portable\CMSIS\nrf52 -I ..\..\..\..\..\..\external\freertos\source\include -I ..\..\..\..\..\..\integration\nrfx -I ..\..\..\..\..\..\integration\nrfx\legacy -I ..\..\..\..\..\..\modules\nrfx -I ..\..\..\..\..\..\modules\nrfx\drivers\include -I ..\..\..\..\..\..\modules\nrfx\hal -I ..\config -I ..\..\..\..\..\..\components\libraries\delay -I ..\..\..\usr_lib\PanTompkins -I ..\..\..\usr_lib\hardware -I ..\..\..\..\0adc_rtos -I ..\..\..\usr_lib\tasks -I ..\..\..\..\..\..\components\libraries\cli -I ..\..\..\..\..\..\components\libraries\mpu -I ..\..\..\usr_lib -I ..\..\..\usr_lib\wavelib\header -I ..\..\..\usr_lib\wavelib\src --gnu-I.\RTE\_nrf52840_xxaa-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52840_XXAA -D_RTE_ -DBOARD_PCA10056 -DCONFIG_GPIO_AS_PINRESET -DFLOAT_ABI_HARD -DFREERTOS -DNRF52840_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o .\_build\start_tasks.o --omf_browse .\_build\start_tasks.crf --depend .\_build\start_tasks.d)
 I (..\..\..\config\FreeRTOSConfig.h)(0x661D0C5A)
@@ -2221,233 +2066,23 @@ I (..\..\..\..\..\..\external\freertos\source\include\task.h)(0x6120D62B)
 I (..\..\..\..\..\..\external\freertos\source\include\list.h)(0x6120D62B)
 I (..\..\..\..\..\..\external\freertos\source\include\timers.h)(0x6120D62B)
 I (..\..\..\usr_lib\tasks\start_tasks.h)(0x6616AE4C)
-I (..\..\..\main.h)(0x6667F490)
+I (..\..\..\main.h)(0x66690758)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\math.h)(0x60252378)
-I (..\..\..\..\..\..\components\libraries\bsp\bsp.h)(0x61210B93)
-I (..\..\..\..\..\..\components\boards\boards.h)(0x61210B93)
-I (..\..\..\..\..\..\modules\nrfx\hal\nrf_gpio.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\nrfx.h)(0x61210B97)
-I (..\..\..\..\..\..\integration\nrfx\nrfx_config.h)(0x61210B97)
-I (..\config\sdk_config.h)(0x66659976)
-I (..\..\..\..\..\..\modules\nrfx\drivers/nrfx_common.h)(0x61210B97)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\nrf_peripherals.h)(0x609E277A)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\nrf52840_peripherals.h)(0x609E277A)
-I (..\..\..\..\..\..\integration\nrfx\nrfx_glue.h)(0x61210B97)
-I (..\..\..\..\..\..\integration\nrfx\legacy/apply_old_config.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\soc/nrfx_irqs.h)(0x61210B98)
-I (..\..\..\..\..\..\modules\nrfx\soc/nrfx_irqs_nrf52840.h)(0x61210B98)
-I (..\..\..\..\..\..\modules\nrfx\soc/nrfx_coredep.h)(0x61210B98)
-I (..\..\..\..\..\..\modules\nrfx\soc/nrfx_atomic.h)(0x61210B98)
-I (..\..\..\..\..\..\components\libraries\util\sdk_resources.h)(0x61210B93)
-I (..\..\..\..\..\..\modules\nrfx\drivers/nrfx_errors.h)(0x61210B97)
-I (..\..\..\..\..\..\components\boards\pca10056.h)(0x61210B93)
-I (..\..\..\..\..\..\components\libraries\button\app_button.h)(0x61210B93)
-I (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_saadc.h)(0x66277DBA)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_saadc.h)(0x66681301)
-I (..\..\..\..\..\..\modules\nrfx\hal/nrf_saadc.h)(0x66277D79)
-I (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_ppi.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_ppi.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\hal/nrf_ppi.h)(0x61210B97)
-I (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_timer.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_timer.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\hal/nrf_timer.h)(0x61210B97)
-I (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_clock.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_clock.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\hal/nrf_clock.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_power_clock.h)(0x61210B97)
-I (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_twi.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_twim.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_twi_twim.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\hal/nrf_twim.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_twi.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\hal/nrf_twi.h)(0x61210B97)
-I (..\..\..\..\..\..\components\libraries\delay\nrf_delay.h)(0x61210B93)
-I (..\..\..\..\..\..\components\libraries\mpu\nrf_mpu_lib.h)(0x61210B93)
-I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x60252374)
-I (..\..\..\usr_lib\PanTompkins\PanTompkins.h)(0x661811E4)
-I (..\..\..\usr_lib\filter.h)(0x6665A662)
-I (..\..\..\usr_lib\wavelib\header\wavelib.h)(0x6667F8DB)
-I (..\..\..\usr_lib\hardware\ad8233.h)(0x66659E56)
-I (..\..\..\usr_lib\hardware\sc7a20.h)(0x66208CAF)
-I (..\..\..\usr_lib\tasks\Task_PanTompkins.h)(0x6616B09C)
-I (..\..\..\usr_lib\tasks\Task_led.h)(0x6616B0DE)
 F (..\..\..\usr_lib\tasks\Task_PanTompkins.c)(0x661D1B47)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\..\components -I ..\..\..\..\..\..\components\boards -I ..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I ..\..\..\..\..\..\components\libraries\atomic -I ..\..\..\..\..\..\components\libraries\balloc -I ..\..\..\..\..\..\components\libraries\bsp -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\libraries\experimental_section_vars -I ..\..\..\..\..\..\components\libraries\log -I ..\..\..\..\..\..\components\libraries\log\src -I ..\..\..\..\..\..\components\libraries\memobj -I ..\..\..\..\..\..\components\libraries\ringbuf -I ..\..\..\..\..\..\components\libraries\strerror -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\util -I ..\..\.. -I ..\..\..\..\..\..\external\fprintf -I ..\..\..\..\..\..\external\freertos\config -I ..\..\..\..\..\..\external\freertos\portable\ARM\nrf52 -I ..\..\..\..\..\..\external\freertos\portable\CMSIS\nrf52 -I ..\..\..\..\..\..\external\freertos\source\include -I ..\..\..\..\..\..\integration\nrfx -I ..\..\..\..\..\..\integration\nrfx\legacy -I ..\..\..\..\..\..\modules\nrfx -I ..\..\..\..\..\..\modules\nrfx\drivers\include -I ..\..\..\..\..\..\modules\nrfx\hal -I ..\config -I ..\..\..\..\..\..\components\libraries\delay -I ..\..\..\usr_lib\PanTompkins -I ..\..\..\usr_lib\hardware -I ..\..\..\..\0adc_rtos -I ..\..\..\usr_lib\tasks -I ..\..\..\..\..\..\components\libraries\cli -I ..\..\..\..\..\..\components\libraries\mpu -I ..\..\..\usr_lib -I ..\..\..\usr_lib\wavelib\header -I ..\..\..\usr_lib\wavelib\src --gnu-I.\RTE\_nrf52840_xxaa-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52840_XXAA -D_RTE_ -DBOARD_PCA10056 -DCONFIG_GPIO_AS_PINRESET -DFLOAT_ABI_HARD -DFREERTOS -DNRF52840_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o .\_build\task_pantompkins.o --omf_browse .\_build\task_pantompkins.crf --depend .\_build\task_pantompkins.d)
-I (..\..\..\main.h)(0x6667F490)
+I (..\..\..\main.h)(0x66690758)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x6025237C)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x60252374)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\math.h)(0x60252378)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\nrf.h)(0x609E2778)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\nrf52840.h)(0x609E277A)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\system_nrf52840.h)(0x609E277A)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\nrf52840_bitfields.h)(0x609E277A)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\nrf51_to_nrf52840.h)(0x609E2778)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\nrf52_to_nrf52840.h)(0x609E277A)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\compiler_abstraction.h)(0x609E2778)
-I (..\..\..\..\..\..\components\libraries\bsp\bsp.h)(0x61210B93)
-I (..\..\..\..\..\..\components\boards\boards.h)(0x61210B93)
-I (..\..\..\..\..\..\modules\nrfx\hal\nrf_gpio.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\nrfx.h)(0x61210B97)
-I (..\..\..\..\..\..\integration\nrfx\nrfx_config.h)(0x61210B97)
-I (..\config\sdk_config.h)(0x66659976)
-I (..\..\..\..\..\..\modules\nrfx\drivers/nrfx_common.h)(0x61210B97)
-I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x6025237E)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\nrf_peripherals.h)(0x609E277A)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\nrf52840_peripherals.h)(0x609E277A)
-I (..\..\..\..\..\..\integration\nrfx\nrfx_glue.h)(0x61210B97)
-I (..\..\..\..\..\..\integration\nrfx\legacy/apply_old_config.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\soc/nrfx_irqs.h)(0x61210B98)
-I (..\..\..\..\..\..\modules\nrfx\soc/nrfx_irqs_nrf52840.h)(0x61210B98)
-I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x61210B93)
-I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x61210B93)
-I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x61210B93)
-I (..\..\..\..\..\..\components\libraries\util\app_util_platform.h)(0x61210B93)
-I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x61210B93)
-I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x61210B93)
-I (..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x61210B93)
-I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x61210B93)
-I (..\..\..\..\..\..\modules\nrfx\soc/nrfx_coredep.h)(0x61210B98)
-I (..\..\..\..\..\..\modules\nrfx\soc/nrfx_atomic.h)(0x61210B98)
-I (..\..\..\..\..\..\components\libraries\util\sdk_resources.h)(0x61210B93)
-I (..\..\..\..\..\..\modules\nrfx\drivers/nrfx_errors.h)(0x61210B97)
-I (..\..\..\..\..\..\components\boards\pca10056.h)(0x61210B93)
-I (..\..\..\..\..\..\components\libraries\button\app_button.h)(0x61210B93)
-I (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_saadc.h)(0x66277DBA)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_saadc.h)(0x66681301)
-I (..\..\..\..\..\..\modules\nrfx\hal/nrf_saadc.h)(0x66277D79)
-I (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_ppi.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_ppi.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\hal/nrf_ppi.h)(0x61210B97)
-I (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_timer.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_timer.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\hal/nrf_timer.h)(0x61210B97)
-I (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_clock.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_clock.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\hal/nrf_clock.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_power_clock.h)(0x61210B97)
-I (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_twi.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_twim.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_twi_twim.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\hal/nrf_twim.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_twi.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\hal/nrf_twi.h)(0x61210B97)
-I (..\..\..\..\..\..\components\libraries\delay\nrf_delay.h)(0x61210B93)
-I (..\..\..\..\..\..\components\libraries\mpu\nrf_mpu_lib.h)(0x61210B93)
-I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x60252374)
-I (..\..\..\usr_lib\PanTompkins\PanTompkins.h)(0x661811E4)
-I (..\..\..\usr_lib\filter.h)(0x6665A662)
-I (..\..\..\usr_lib\wavelib\header\wavelib.h)(0x6667F8DB)
-I (..\..\..\usr_lib\hardware\ad8233.h)(0x66659E56)
-I (..\..\..\usr_lib\hardware\sc7a20.h)(0x66208CAF)
-I (..\..\..\config\FreeRTOSConfig.h)(0x661D0C5A)
-I (..\..\..\..\..\..\external\freertos\source\include\FreeRTOS.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\projdefs.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\portable.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\deprecated_definitions.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\portable\ARM\nrf52\portmacro.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\portable\CMSIS\nrf52\portmacro_cmsis.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\mpu_wrappers.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\task.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\list.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\timers.h)(0x6120D62B)
-I (..\..\..\usr_lib\tasks\Task_PanTompkins.h)(0x6616B09C)
-I (..\..\..\usr_lib\tasks\Task_led.h)(0x6616B0DE)
-I (..\..\..\usr_lib\tasks\start_tasks.h)(0x6616AE4C)
 F (..\..\..\usr_lib\tasks\Task_led.c)(0x661D0DA4)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\..\components -I ..\..\..\..\..\..\components\boards -I ..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I ..\..\..\..\..\..\components\libraries\atomic -I ..\..\..\..\..\..\components\libraries\balloc -I ..\..\..\..\..\..\components\libraries\bsp -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\libraries\experimental_section_vars -I ..\..\..\..\..\..\components\libraries\log -I ..\..\..\..\..\..\components\libraries\log\src -I ..\..\..\..\..\..\components\libraries\memobj -I ..\..\..\..\..\..\components\libraries\ringbuf -I ..\..\..\..\..\..\components\libraries\strerror -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\util -I ..\..\.. -I ..\..\..\..\..\..\external\fprintf -I ..\..\..\..\..\..\external\freertos\config -I ..\..\..\..\..\..\external\freertos\portable\ARM\nrf52 -I ..\..\..\..\..\..\external\freertos\portable\CMSIS\nrf52 -I ..\..\..\..\..\..\external\freertos\source\include -I ..\..\..\..\..\..\integration\nrfx -I ..\..\..\..\..\..\integration\nrfx\legacy -I ..\..\..\..\..\..\modules\nrfx -I ..\..\..\..\..\..\modules\nrfx\drivers\include -I ..\..\..\..\..\..\modules\nrfx\hal -I ..\config -I ..\..\..\..\..\..\components\libraries\delay -I ..\..\..\usr_lib\PanTompkins -I ..\..\..\usr_lib\hardware -I ..\..\..\..\0adc_rtos -I ..\..\..\usr_lib\tasks -I ..\..\..\..\..\..\components\libraries\cli -I ..\..\..\..\..\..\components\libraries\mpu -I ..\..\..\usr_lib -I ..\..\..\usr_lib\wavelib\header -I ..\..\..\usr_lib\wavelib\src --gnu-I.\RTE\_nrf52840_xxaa-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52840_XXAA -D_RTE_ -DBOARD_PCA10056 -DCONFIG_GPIO_AS_PINRESET -DFLOAT_ABI_HARD -DFREERTOS -DNRF52840_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o .\_build\task_led.o --omf_browse .\_build\task_led.crf --depend .\_build\task_led.d)
-I (..\..\..\main.h)(0x6667F490)
+I (..\..\..\main.h)(0x66690758)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x6025237C)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x60252374)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x6025237E)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\math.h)(0x60252378)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\nrf.h)(0x609E2778)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\nrf52840.h)(0x609E277A)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\system_nrf52840.h)(0x609E277A)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\nrf52840_bitfields.h)(0x609E277A)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\nrf51_to_nrf52840.h)(0x609E2778)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\nrf52_to_nrf52840.h)(0x609E277A)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\compiler_abstraction.h)(0x609E2778)
-I (..\..\..\..\..\..\components\libraries\bsp\bsp.h)(0x61210B93)
-I (..\..\..\..\..\..\components\boards\boards.h)(0x61210B93)
-I (..\..\..\..\..\..\modules\nrfx\hal\nrf_gpio.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\nrfx.h)(0x61210B97)
-I (..\..\..\..\..\..\integration\nrfx\nrfx_config.h)(0x61210B97)
-I (..\config\sdk_config.h)(0x66659976)
-I (..\..\..\..\..\..\modules\nrfx\drivers/nrfx_common.h)(0x61210B97)
-I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x6025237E)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\nrf_peripherals.h)(0x609E277A)
-I (C:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include\nrf52840_peripherals.h)(0x609E277A)
-I (..\..\..\..\..\..\integration\nrfx\nrfx_glue.h)(0x61210B97)
-I (..\..\..\..\..\..\integration\nrfx\legacy/apply_old_config.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\soc/nrfx_irqs.h)(0x61210B98)
-I (..\..\..\..\..\..\modules\nrfx\soc/nrfx_irqs_nrf52840.h)(0x61210B98)
-I (..\..\..\..\..\..\components\libraries\util\nrf_assert.h)(0x61210B93)
-I (..\..\..\..\..\..\components\libraries\util\app_util.h)(0x61210B93)
-I (..\..\..\..\..\..\components\libraries\util\nordic_common.h)(0x61210B93)
-I (..\..\..\..\..\..\components\libraries\util\app_util_platform.h)(0x61210B93)
-I (..\..\..\..\..\..\components\libraries\util\app_error.h)(0x61210B93)
-I (..\..\..\..\..\..\components\libraries\util\sdk_errors.h)(0x61210B93)
-I (..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x61210B93)
-I (..\..\..\..\..\..\components\libraries\util\app_error_weak.h)(0x61210B93)
-I (..\..\..\..\..\..\modules\nrfx\soc/nrfx_coredep.h)(0x61210B98)
-I (..\..\..\..\..\..\modules\nrfx\soc/nrfx_atomic.h)(0x61210B98)
-I (..\..\..\..\..\..\components\libraries\util\sdk_resources.h)(0x61210B93)
-I (..\..\..\..\..\..\modules\nrfx\drivers/nrfx_errors.h)(0x61210B97)
-I (..\..\..\..\..\..\components\boards\pca10056.h)(0x61210B93)
-I (..\..\..\..\..\..\components\libraries\button\app_button.h)(0x61210B93)
-I (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_saadc.h)(0x66277DBA)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_saadc.h)(0x66681301)
-I (..\..\..\..\..\..\modules\nrfx\hal/nrf_saadc.h)(0x66277D79)
-I (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_ppi.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_ppi.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\hal/nrf_ppi.h)(0x61210B97)
-I (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_timer.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_timer.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\hal/nrf_timer.h)(0x61210B97)
-I (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_clock.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_clock.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\hal/nrf_clock.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_power_clock.h)(0x61210B97)
-I (..\..\..\..\..\..\integration\nrfx\legacy\nrf_drv_twi.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_twim.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_twi_twim.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\hal/nrf_twim.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\drivers\include\nrfx_twi.h)(0x61210B97)
-I (..\..\..\..\..\..\modules\nrfx\hal/nrf_twi.h)(0x61210B97)
-I (..\..\..\..\..\..\components\libraries\delay\nrf_delay.h)(0x61210B93)
-I (..\..\..\..\..\..\components\libraries\mpu\nrf_mpu_lib.h)(0x61210B93)
-I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x60252374)
-I (..\..\..\usr_lib\PanTompkins\PanTompkins.h)(0x661811E4)
-I (..\..\..\usr_lib\filter.h)(0x6665A662)
-I (..\..\..\usr_lib\wavelib\header\wavelib.h)(0x6667F8DB)
-I (..\..\..\usr_lib\hardware\ad8233.h)(0x66659E56)
-I (..\..\..\usr_lib\hardware\sc7a20.h)(0x66208CAF)
-I (..\..\..\config\FreeRTOSConfig.h)(0x661D0C5A)
-I (..\..\..\..\..\..\external\freertos\source\include\FreeRTOS.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\projdefs.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\portable.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\deprecated_definitions.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\portable\ARM\nrf52\portmacro.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\portable\CMSIS\nrf52\portmacro_cmsis.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\mpu_wrappers.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\task.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\list.h)(0x6120D62B)
-I (..\..\..\..\..\..\external\freertos\source\include\timers.h)(0x6120D62B)
-I (..\..\..\usr_lib\tasks\Task_PanTompkins.h)(0x6616B09C)
-I (..\..\..\usr_lib\tasks\Task_led.h)(0x6616B0DE)
-I (..\..\..\usr_lib\tasks\start_tasks.h)(0x6616AE4C)
 F (RTE/Device/nRF52840_xxAA/arm_startup_nrf52840.s)(0x66659B5D)(--cpu Cortex-M4.fp.sp -g --apcs=interwork --pd "__MICROLIB SETA 1" -I ..\..\..\config -I ..\..\..\..\..\..\components -I ..\..\..\..\..\..\components\boards -I ..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I ..\..\..\..\..\..\components\libraries\atomic -I ..\..\..\..\..\..\components\libraries\balloc -I ..\..\..\..\..\..\components\libraries\bsp -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\libraries\experimental_section_vars -I ..\..\..\..\..\..\components\libraries\log -I ..\..\..\..\..\..\components\libraries\log\src -I ..\..\..\..\..\..\components\libraries\memobj -I ..\..\..\..\..\..\components\libraries\ringbuf -I ..\..\..\..\..\..\components\libraries\strerror -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\util -I ..\..\.. -I ..\..\..\..\..\..\external\fprintf -I ..\..\..\..\..\..\external\freertos\config -I ..\..\..\..\..\..\external\freertos\portable\ARM\nrf52 -I ..\..\..\..\..\..\external\freertos\portable\CMSIS\nrf52 -I ..\..\..\..\..\..\external\freertos\source\include -I ..\..\..\..\..\..\integration\nrfx -I ..\..\..\..\..\..\integration\nrfx\legacy -I ..\..\..\..\..\..\modules\nrfx -I ..\..\..\..\..\..\modules\nrfx\drivers\include -I ..\..\..\..\..\..\modules\nrfx\hal -I ..\config  --cpreproc_opts=-DBOARD_PCA10056,-DCONFIG_GPIO_AS_PINRESET,-DFLOAT_ABI_HARD,-DFREERTOS,-DNRF52840_XXAA,-D__HEAP_SIZE=8192,-D__STACK_SIZE=8192-I.\RTE\_nrf52840_xxaa-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include--pd "__UVISION_VERSION SETA 538" --pd "_RTE_ SETA 1" --pd "NRF52840_XXAA SETA 1" --pd "_RTE_ SETA 1" --pd "BOARD_PCA10056 SETA 1" --pd "CONFIG_GPIO_AS_PINRESET SETA 1" --pd "FLOAT_ABI_HARD SETA 1" --pd "FREERTOS SETA 1" --pd "NRF52840_XXAA SETA 1" --pd "__HEAP_SIZE SETA 8192" --pd "__STACK_SIZE SETA 8192"--list .\_build\arm_startup_nrf52840.lst --xref -o .\_build\arm_startup_nrf52840.o --depend .\_build\arm_startup_nrf52840.d)
 F (RTE/Device/nRF52840_xxAA/system_nrf52.c)(0x609E277A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\..\config -I ..\..\..\..\..\..\components -I ..\..\..\..\..\..\components\boards -I ..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I ..\..\..\..\..\..\components\libraries\atomic -I ..\..\..\..\..\..\components\libraries\balloc -I ..\..\..\..\..\..\components\libraries\bsp -I ..\..\..\..\..\..\components\libraries\button -I ..\..\..\..\..\..\components\libraries\experimental_section_vars -I ..\..\..\..\..\..\components\libraries\log -I ..\..\..\..\..\..\components\libraries\log\src -I ..\..\..\..\..\..\components\libraries\memobj -I ..\..\..\..\..\..\components\libraries\ringbuf -I ..\..\..\..\..\..\components\libraries\strerror -I ..\..\..\..\..\..\components\libraries\timer -I ..\..\..\..\..\..\components\libraries\util -I ..\..\.. -I ..\..\..\..\..\..\external\fprintf -I ..\..\..\..\..\..\external\freertos\config -I ..\..\..\..\..\..\external\freertos\portable\ARM\nrf52 -I ..\..\..\..\..\..\external\freertos\portable\CMSIS\nrf52 -I ..\..\..\..\..\..\external\freertos\source\include -I ..\..\..\..\..\..\integration\nrfx -I ..\..\..\..\..\..\integration\nrfx\legacy -I ..\..\..\..\..\..\modules\nrfx -I ..\..\..\..\..\..\modules\nrfx\drivers\include -I ..\..\..\..\..\..\modules\nrfx\hal -I ..\config -I ..\..\..\..\..\..\components\libraries\delay -I ..\..\..\usr_lib\PanTompkins -I ..\..\..\usr_lib\hardware -I ..\..\..\..\0adc_rtos -I ..\..\..\usr_lib\tasks -I ..\..\..\..\..\..\components\libraries\cli -I ..\..\..\..\..\..\components\libraries\mpu -I ..\..\..\usr_lib -I ..\..\..\usr_lib\wavelib\header -I ..\..\..\usr_lib\wavelib\src --gnu-I.\RTE\_nrf52840_xxaa-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.40.3\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52840_XXAA -D_RTE_ -DBOARD_PCA10056 -DCONFIG_GPIO_AS_PINRESET -DFLOAT_ABI_HARD -DFREERTOS -DNRF52840_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o .\_build\system_nrf52.o --omf_browse .\_build\system_nrf52.crf --depend .\_build\system_nrf52.d)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x6025237E)

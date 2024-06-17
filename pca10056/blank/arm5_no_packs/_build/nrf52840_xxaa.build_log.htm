@@ -27,16 +27,43 @@ Project File Date:  06/11/2024
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin'
 Build target 'nrf52840_xxaa'
+compiling Task_led.c...
+..\..\..\main.h(10): error:  #5: cannot open source input file "malloc.h": No such file or directory
+  #include "malloc.h"
+..\..\..\usr_lib\tasks\Task_led.c: 0 warnings, 1 error
+compiling Task_PanTompkins.c...
+..\..\..\main.h(10): error:  #5: cannot open source input file "malloc.h": No such file or directory
+  #include "malloc.h"
+..\..\..\usr_lib\tasks\Task_PanTompkins.c: 0 warnings, 1 error
+compiling main.c...
+..\..\..\main.h(10): error:  #5: cannot open source input file "malloc.h": No such file or directory
+  #include "malloc.h"
+..\..\..\main.c: 0 warnings, 1 error
+compiling start_tasks.c...
+..\..\..\..\..\..\components\libraries\util\app_util.h(225): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_SIMPLE"  (declared at line 219)
+  #define STATIC_ASSERT_SIMPLE(EXPR)      extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\..\..\..\..\components\libraries\util\app_util.h(226): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_MSG"  (declared at line 220)
+  #define STATIC_ASSERT_MSG(EXPR, MSG)    extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\..\main.h(10): error:  #5: cannot open source input file "malloc.h": No such file or directory
+  #include "malloc.h"
+..\..\..\usr_lib\tasks\start_tasks.c: 2 warnings, 1 error
+compiling sc7a20.c...
+..\..\..\..\..\..\components\libraries\util\app_util.h(225): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_SIMPLE"  (declared at line 219)
+  #define STATIC_ASSERT_SIMPLE(EXPR)      extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\..\..\..\..\components\libraries\util\app_util.h(226): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_MSG"  (declared at line 220)
+  #define STATIC_ASSERT_MSG(EXPR, MSG)    extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+..\..\..\main.h(10): error:  #5: cannot open source input file "malloc.h": No such file or directory
+  #include "malloc.h"
+..\..\..\usr_lib\hardware\sc7a20.c: 2 warnings, 1 error
 compiling ad8233.c...
 ..\..\..\..\..\..\components\libraries\util\app_util.h(225): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_SIMPLE"  (declared at line 219)
   #define STATIC_ASSERT_SIMPLE(EXPR)      extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
 ..\..\..\..\..\..\components\libraries\util\app_util.h(226): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_MSG"  (declared at line 220)
   #define STATIC_ASSERT_MSG(EXPR, MSG)    extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
-..\..\..\usr_lib\hardware\ad8233.c: 2 warnings, 0 errors
-linking...
-Program Size: Code=23292 RO-data=26380 RW-data=248 ZI-data=17680  
-FromELF: creating hex file...
-".\_build\nrf52840_xxaa.axf" - 0 Error(s), 2 Warning(s).
+..\..\..\main.h(10): error:  #5: cannot open source input file "malloc.h": No such file or directory
+  #include "malloc.h"
+..\..\..\usr_lib\hardware\ad8233.c: 2 warnings, 1 error
+".\_build\nrf52840_xxaa.axf" - 6 Error(s), 6 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -63,9 +90,10 @@ Package Vendor: NordicSemiconductor
 
    * Component: NordicSemiconductor::Device:Startup:8.40.3
       Source file:   Device/Source/arm/arm_startup_nrf52840.s
+      Include file:  Device/Include/system_nrf52840.h
       Source file:   Device/Source/system_nrf52.c
       Include file:  Device/Include/system_nrf.h
-      Include file:  Device/Include/system_nrf52840.h
+Target not created.
 Build Time Elapsed:  00:00:01
 </pre>
 </body>

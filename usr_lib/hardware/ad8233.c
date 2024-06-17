@@ -1,5 +1,7 @@
 #include "ad8233.h"
 
+#define LENGTH 64
+
 static const nrf_drv_timer_t m_timer = NRF_DRV_TIMER_INSTANCE(0);
 int16_t     m_buffer_pool[1][SAMPLES_IN_BUFFER];//加static之后会找不到
 static nrf_ppi_channel_t     m_ppi_channel;
@@ -8,7 +10,8 @@ static int8_t ii = 0;
 //小波变换相关
 wave_object obj;  //小波基函数初始化
 wt_object wt;  //变换类初始化
-double *inp,*out,*diff;  //diff为原信号与变换后信号作差数值，仅用于检验
+//double *inp,*out;  //diff为原信号与变换后信号作差数值，仅用于检验
+double inp[LENGTH],out[LENGTH];
 int N, i,J;  
 double temp[1200];  
 char *name = "db4";  
@@ -84,30 +87,27 @@ void saadc_callback(nrf_drv_saadc_evt_t const * p_event)
 				/*小波变换相关*/
 				obj = wave_init(name);// 通过名字初始化小波基类
 				//一次进行小波变换的信号长度，长度为256时在1kHz下跑不动
-				N= 64;
-				inp = (double*)malloc(sizeof(double)* N);  
-				out = (double*)malloc(sizeof(double)* N);  
-				diff = (double*)malloc(sizeof(double)* N);
-				J = 3;  
+				N=LENGTH;
+//				inp = (double*)malloc(sizeof(double)* N);  
+//				out = (double*)malloc(sizeof(double)* N);  
+				J = 2;  
 				wt = wt_init(obj, "dwt", N, J);
 				setDWTExtension(wt, "sym");  
-				setWTConv(wt, "direct");
-//				dwt(wt, inp);//DWT变换  
+				setWTConv(wt, "fft");
+				dwt(wt, inp);//DWT变换  
 //				/*进行滤波*/
 //				//DWT output can be accessed using wt->output vector. Use wt_summary to  find out how to extract appx and detail coefficients 	
 //				//out没有赋值，直接用于逆变换？
-//				out = wt->output;
-//				
-//				
-//				idwt(wt, out); 
+				for (int i=0;i<N;i++)
+					out[i] = wt->output[i];
+				
+				idwt(wt, out); 
 				//动态内存释放
 				wave_free(obj);  
 				wt_free(wt);  
 				free(inp);  
 				free(out);  
-				free(diff); 
-			
-			
+		
 			  if(ii%1 == 0)
 					PT_StateMachine(adc_value);
 				ii++;

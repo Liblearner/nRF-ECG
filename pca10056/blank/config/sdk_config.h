@@ -5557,7 +5557,7 @@
 // <i>  Size of each memory blocks identified as 'small' block. Memory block are recommended to be word-sized.
 
 #ifndef MEMORY_MANAGER_SMALL_BLOCK_SIZE
-#define MEMORY_MANAGER_SMALL_BLOCK_SIZE 32
+#define MEMORY_MANAGER_SMALL_BLOCK_SIZE 1024
 #endif
 
 // <o> MEMORY_MANAGER_MEDIUM_BLOCK_COUNT - Size of each memory blocks identified as 'medium' block.  <0-255> 
@@ -5571,7 +5571,7 @@
 // <i>  Size of each memory blocks identified as 'medium' block. Memory block are recommended to be word-sized.
 
 #ifndef MEMORY_MANAGER_MEDIUM_BLOCK_SIZE
-#define MEMORY_MANAGER_MEDIUM_BLOCK_SIZE 256
+#define MEMORY_MANAGER_MEDIUM_BLOCK_SIZE 2048
 #endif
 
 // <o> MEMORY_MANAGER_LARGE_BLOCK_COUNT - Size of each memory blocks identified as 'large' block.  <0-255> 
@@ -5585,7 +5585,7 @@
 // <i>  Size of each memory blocks identified as 'large' block. Memory block are recommended to be word-sized.
 
 #ifndef MEMORY_MANAGER_LARGE_BLOCK_SIZE
-#define MEMORY_MANAGER_LARGE_BLOCK_SIZE 256
+#define MEMORY_MANAGER_LARGE_BLOCK_SIZE 4096
 #endif
 
 // <o> MEMORY_MANAGER_XLARGE_BLOCK_COUNT - Size of each memory blocks identified as 'extra large' block.  <0-255> 
